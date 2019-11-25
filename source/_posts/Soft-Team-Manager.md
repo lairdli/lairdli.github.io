@@ -1,7 +1,7 @@
 ---
-title: Soft Project Management
+title: Soft Team Management
 date: 2019-11-24 16:20:27
-updated: 2019-11-24 16:30:27
+updated: 2019-11-25 11:30:27
 categories: Soft
 tags: [Soft,Team]
 ---
