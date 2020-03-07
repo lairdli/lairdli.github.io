@@ -26,7 +26,7 @@
     <summary type="html">
     
       &lt;p&gt;本文将总结软件团队组建与管理的一些关键要素。&lt;br&gt;一切将从面试-文档-沟通-分享-评审-定位等以此归纳。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://lairdli.top/images/soft-team-manager.png&quot; alt=&quot;soft-team-manager&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jODu4.png&quot; alt=&quot;soft-team-manager&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -58,7 +58,7 @@
 &lt;ul&gt;
 &lt;li&gt;项目经理是领航，对整个项目负责。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/images/pm-user.png&quot; alt=&quot;pm-user&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jOYEn.png&quot; alt=&quot;pm-user&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -81,7 +81,6 @@
     <summary type="html">
     
       &lt;p&gt;众所周知 Android系统是基于linux内核的，因而linux上的一些命令行基本上Android上也能适用，有时候有些有些阉割的命令也可以通过busybox这个命令工具做补充。本文总结Android开发常用的一些的命令行操作，带你走进不一样的空间体验。命令太多，建议收藏，有需要时搜索就行。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/android-command.jpg&quot; alt=&quot;android-command&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -106,7 +105,6 @@
       &lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;p&gt; 最近看完了卡纳基的&lt;strong&gt;&lt;em&gt;《人性的弱点》&lt;/em&gt;&lt;/strong&gt;，读之前以为是写人性的弱点，其实完全两码事，其实英文题目最合适内容—&lt;strong&gt;&lt;em&gt;《How to win friends and influence people》&lt;/em&gt;&lt;/strong&gt;（如何赢得朋友，影响人们） ,不知为何如此翻译？可能博人眼球，亦或酒香也怕巷子深！&lt;/p&gt;
 &lt;p&gt;读完本书最大的感受，其实就是以他人为中心，换位思考，当然这在大部分社交中是适合的，但是在实际应用中，特别是工作中，可能就不是那么回事，你越妥协，别人反而可能越觉得你是软柿子，谁见了都想捏！&lt;/p&gt;
 &lt;p&gt;但总体来说，该书总结的与人很相处的很多行为准则，还是非常值得点赞的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/win-friends.jpg&quot; alt=&quot;win-friends&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -156,7 +154,7 @@
     
       &lt;p&gt;本文总结Android-TV开发过程中，常见的基础知识点，主要分为TV-UI,IPTV,OTT,DVB,TVOS,DEBUG等几大模块展开。适用于常见盒子，电视，投影仪等TV开发。&lt;/p&gt;
 &lt;h3 id=&quot;MindMap&quot;&gt;&lt;a href=&quot;#MindMap&quot; class=&quot;headerlink&quot; title=&quot;MindMap&quot;&gt;&lt;/a&gt;MindMap&lt;/h3&gt;&lt;p&gt;开局一张图，直接上脑图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://lairdli.top/images/android-tv.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jOC9K.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -182,7 +180,7 @@
     
       &lt;p&gt;本文总结版本控制工具git在日常开发工作常用到的一些命令，以及一些常用的场景应用，比如分支管理，远程管理，合并冲突处理等。后续持续更新中。&lt;/p&gt;
 &lt;h4 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h4&gt;&lt;p&gt;下面的图片很清晰的说明来一些命令和各个区域的关系 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://lairdli.top/images/git-command.png&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jOn4P.jpg&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
 &lt;h5 id=&quot;常用&quot;&gt;&lt;a href=&quot;#常用&quot; class=&quot;headerlink&quot; title=&quot;常用&quot;&gt;&lt;/a&gt;常用&lt;/h5&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git remote add origin git@github.com:yeszao/dofiler.git   &lt;span class=&quot;comment&quot;&gt;# 配置远程git版本库&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git pull origin master                                    &lt;span class=&quot;comment&quot;&gt;# 下载代码及快速合并 &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git push origin master                                    &lt;span class=&quot;comment&quot;&gt;# 上传代码及快速合并&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git fetch origin                                          &lt;span class=&quot;comment&quot;&gt;# 从远程库获取代码&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git branch                                                &lt;span class=&quot;comment&quot;&gt;# 显示所有分支&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git checkout master                                       &lt;span class=&quot;comment&quot;&gt;# 切换到master分支&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git checkout -b dev                                       &lt;span class=&quot;comment&quot;&gt;# 创建并切换到dev分支&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit -m &lt;span class=&quot;string&quot;&gt;&quot;first version&quot;&lt;/span&gt;                             &lt;span class=&quot;comment&quot;&gt;# 提交&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git status                                                &lt;span class=&quot;comment&quot;&gt;# 查看状态&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git &lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;                                                   &lt;span class=&quot;comment&quot;&gt;# 查看提交历史&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git config --global core.editor vim                       &lt;span class=&quot;comment&quot;&gt;# 设置默认编辑器为vim（git默认用nano）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git config core.ignorecase &lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;                          &lt;span class=&quot;comment&quot;&gt;# 设置大小写敏感&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git config --global user.name &lt;span class=&quot;string&quot;&gt;&quot;YOUR NAME&quot;&lt;/span&gt;                 &lt;span class=&quot;comment&quot;&gt;# 设置用户名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git config --global user.email &lt;span class=&quot;string&quot;&gt;&quot;YOUR EMAIL ADDRESS&quot;&lt;/span&gt;       &lt;span class=&quot;comment&quot;&gt;# 设置邮箱&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
@@ -207,7 +205,7 @@
     
       &lt;h2 id=&quot;Android-Material-Design&quot;&gt;&lt;a href=&quot;#Android-Material-Design&quot; class=&quot;headerlink&quot; title=&quot;Android Material Design&quot;&gt;&lt;/a&gt;Android Material Design&lt;/h2&gt;&lt;p&gt;Material Design（质感设计）是google在Android 5.0提出的一种全新的设计理论，旨在为手机，平板，TV，电脑 等平台提供一致的设计与体验。&lt;/p&gt;
 &lt;h3 id=&quot;导图&quot;&gt;&lt;a href=&quot;#导图&quot; class=&quot;headerlink&quot; title=&quot;导图&quot;&gt;&lt;/a&gt;导图&lt;/h3&gt;&lt;p&gt;开局一张图，直接上脑图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://lairdli.top/images/android-material-design.png&quot; alt=&quot;android-material-design&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jLjB9.png&quot; alt=&quot;android-material-design&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -230,7 +228,7 @@
     <summary type="html">
     
       &lt;h4 id=&quot;Android-Release&quot;&gt;&lt;a href=&quot;#Android-Release&quot; class=&quot;headerlink&quot; title=&quot;Android Release&quot;&gt;&lt;/a&gt;Android Release&lt;/h4&gt;&lt;p&gt;Android版本目前最新已发布了Android 9.0 Q测试版，本文旨在总结目前Android各个Release版本的新特性，以供App开发时，进行更好的版本适配，新功能开发。&lt;/p&gt;
-&lt;h5 id=&quot;MindMap&quot;&gt;&lt;a href=&quot;#MindMap&quot; class=&quot;headerlink&quot; title=&quot;MindMap&quot;&gt;&lt;/a&gt;MindMap&lt;/h5&gt;&lt;p&gt;开局一张图，直接上脑图&lt;br&gt;&lt;img src=&quot;https://lairdli.top/images/android-release.png&quot; alt=&quot;Android Release&quot;&gt;&lt;/p&gt;
+&lt;h5 id=&quot;MindMap&quot;&gt;&lt;a href=&quot;#MindMap&quot; class=&quot;headerlink&quot; title=&quot;MindMap&quot;&gt;&lt;/a&gt;MindMap&lt;/h5&gt;&lt;p&gt;开局一张图，直接上脑图&lt;br&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jOStx.png&quot; alt=&quot;Android Release&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -256,7 +254,7 @@
 &lt;p&gt;本文总结整理了软件开发过程中的那些实用软件与工具，主要基于Android开发，其他行业语种开发，也大部分适用，请自行参考，有了这些”神兵利器”的协助，基本上能搞定日常工作中的开发需求了。&lt;/p&gt;
 &lt;p&gt;希望对不断上进的你有所帮助！&lt;/p&gt;
 &lt;h4 id=&quot;思维导图&quot;&gt;&lt;a href=&quot;#思维导图&quot; class=&quot;headerlink&quot; title=&quot;思维导图&quot;&gt;&lt;/a&gt;思维导图&lt;/h4&gt;&lt;p&gt;开局一张图，直接上脑图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://lairdli.top/images/android-helper.png&quot; alt=&quot;Android Helper&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jLIkq.png&quot; alt=&quot;Android Helper&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -274,7 +272,7 @@
     <link href="https://lairdli.top/2019/06/09/Android-C-RoadMap/"/>
     <id>https://lairdli.top/2019/06/09/Android-C-RoadMap/</id>
     <published>2019-06-09T04:00:00.000Z</published>
-    <updated>2020-03-07T03:51:30.884Z</updated>
+    <updated>2020-03-07T15:01:07.900Z</updated>
     
     <summary type="html">
     
@@ -289,7 +287,7 @@
 &lt;p&gt;本文的目标是提供适当C/C++ RoadMap（路线图)，方便知识Review，以使你成为更好的Android/C开发人员。&lt;/p&gt;
 &lt;p&gt; &lt;em&gt;There is no better way to learn something than by doing.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Getting-started-with-the-MindMap&quot;&gt;&lt;a href=&quot;#Getting-started-with-the-MindMap&quot; class=&quot;headerlink&quot; title=&quot;Getting started with the MindMap&quot;&gt;&lt;/a&gt;&lt;strong&gt;Getting started with the MindMap&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;开局一张图，直接上脑图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://lairdli.top/images/jni-c-journey.png&quot; alt=&quot;jni-c-journey&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jOljg.png&quot; alt=&quot;jni-c-journey&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -307,7 +305,7 @@
     <link href="https://lairdli.top/2019/06/01/Android-NDK-RoadMap/"/>
     <id>https://lairdli.top/2019/06/01/Android-NDK-RoadMap/</id>
     <published>2019-06-01T04:00:00.000Z</published>
-    <updated>2020-03-07T03:51:30.886Z</updated>
+    <updated>2020-03-07T15:09:12.633Z</updated>
     
     <summary type="html">
     
@@ -321,7 +319,7 @@
 &lt;p&gt;本文的目标是提供适当Android-JNI-NDK RoadMap（路线图)，列出常见需要注意的点，方便知识Review，以使你成为更好的Android/NDK开发人员。本文不会详情的展示如何演示脑图所展示的知识点，展开来谈，一篇的篇幅远远不够，但文章末会列出相关学习资源，给认真学习上进的你。&lt;/p&gt;
 &lt;p&gt; &lt;em&gt;There is no better way to learn something than by doing.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Getting-started-with-the-MindMap&quot;&gt;&lt;a href=&quot;#Getting-started-with-the-MindMap&quot; class=&quot;headerlink&quot; title=&quot;Getting started with the MindMap&quot;&gt;&lt;/a&gt;&lt;strong&gt;Getting started with the MindMap&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;开局一张图，直接上脑图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://lairdli.top/images/jni-ndk-roadmap.png&quot; alt=&quot;jni-c-journey&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jOGHs.png&quot; alt=&quot;jni-c-journey&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -339,14 +337,13 @@
     <link href="https://lairdli.top/2019/05/19/Android-RoadMap/"/>
     <id>https://lairdli.top/2019/05/19/Android-RoadMap/</id>
     <published>2019-05-19T04:00:00.000Z</published>
-    <updated>2020-03-07T03:51:30.887Z</updated>
+    <updated>2020-03-07T15:17:57.837Z</updated>
     
     <summary type="html">
     
       &lt;h1 id=&quot;Android-RoadMap&quot;&gt;&lt;a href=&quot;#Android-RoadMap&quot; class=&quot;headerlink&quot; title=&quot;Android RoadMap&quot;&gt;&lt;/a&gt;Android RoadMap&lt;/h1&gt;&lt;p&gt;翻译整理国外Android开发总结的一篇博文，原文路径：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://link.medium.com/o13FgtRpHW&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;“A Roadmap To Become A Better Android Developer” by Amit Shekhar &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;文章传送门比较多，信息量比较大，需自备梯子。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://lairdli.top/images/android-developer-roadMap.png&quot; alt=&quot;android developer&amp;#39;s roadMap&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Let’s-become-a-better-Android-Developer&quot;&gt;&lt;a href=&quot;#Let’s-become-a-better-Android-Developer&quot; class=&quot;headerlink&quot; title=&quot;Let’s become a better Android Developer&quot;&gt;&lt;/a&gt;Let’s become a better Android Developer&lt;/h2&gt;&lt;p&gt;本文使用于：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
@@ -373,7 +370,7 @@
     <link href="https://lairdli.top/2019/02/25/Android-3rd-Libs/"/>
     <id>https://lairdli.top/2019/02/25/Android-3rd-Libs/</id>
     <published>2019-02-25T02:00:00.000Z</published>
-    <updated>2020-03-07T03:51:30.883Z</updated>
+    <updated>2020-03-07T14:59:40.255Z</updated>
     
     <summary type="html">
     
@@ -396,7 +393,7 @@
 &lt;li&gt;&lt;strong&gt;架构组件–Componentization&lt;/strong&gt; &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/images/android-3rd-libs.png&quot; alt=&quot;android-3rd-libs&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/03/07/3jLXnJ.png&quot; alt=&quot;android-3rd-libs&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -414,12 +411,11 @@
     <link href="https://lairdli.top/2019/01/30/Android-Journey/"/>
     <id>https://lairdli.top/2019/01/30/Android-Journey/</id>
     <published>2019-01-30T04:00:00.000Z</published>
-    <updated>2020-03-07T03:51:30.886Z</updated>
+    <updated>2020-03-07T15:08:34.205Z</updated>
     
     <summary type="html">
     
       &lt;h1 id=&quot;Android-Journey&quot;&gt;&lt;a href=&quot;#Android-Journey&quot; class=&quot;headerlink&quot; title=&quot;Android Journey&quot;&gt;&lt;/a&gt;Android Journey&lt;/h1&gt;&lt;p&gt;  新的2019年，新的开始，做一个Android相关知识整理，资源聚合。&lt;/p&gt;
-&lt;h2 id=&quot;00-Mind-Mapping&quot;&gt;&lt;a href=&quot;#00-Mind-Mapping&quot; class=&quot;headerlink&quot; title=&quot;00.Mind Mapping&quot;&gt;&lt;/a&gt;00.Mind Mapping&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://lairdli.top/images/android-journey.png&quot; alt=&quot;android-journey-mind-mapping&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -435,7 +431,7 @@
     <link href="https://lairdli.top/2018/05/25/Android-Book-Recomendations/"/>
     <id>https://lairdli.top/2018/05/25/Android-Book-Recomendations/</id>
     <published>2018-05-25T09:57:40.000Z</published>
-    <updated>2020-03-07T03:51:30.884Z</updated>
+    <updated>2020-03-07T15:04:32.239Z</updated>
     
     <summary type="html">
     

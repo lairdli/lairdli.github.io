@@ -4,7 +4,7 @@
     <title>Soft Team Management</title>
     <url>/2019/11/24/Soft-Team-Manager/</url>
     <content><![CDATA[<html><head></head><body><p>本文将总结软件团队组建与管理的一些关键要素。<br>一切将从面试-文档-沟通-分享-评审-定位等以此归纳。</p>
-<p><a href="https://lairdli.top/images/soft-team-manager.png" data-fancybox="group" data-caption="soft-team-manager" class="fancybox"><img alt="soft-team-manager" title="soft-team-manager" data-src="https://lairdli.top/images/soft-team-manager.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jODu4.png" data-fancybox="group" data-caption="soft-team-manager" class="fancybox"><img alt="soft-team-manager" title="soft-team-manager" data-src="https://s2.ax1x.com/2020/03/07/3jODu4.png" class="lazyload"></a></p>
 <a id="more"></a>
 
 <h3 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h3><p>面试主要考察候选人的3个方面：</p>
@@ -108,7 +108,7 @@
 <ul>
 <li>项目经理是领航，对整个项目负责。</li>
 </ul>
-<p><a href="/images/pm-user.png" data-fancybox="group" data-caption="pm-user" class="fancybox"><img alt="pm-user" title="pm-user" data-src="/images/pm-user.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jOYEn.png" data-fancybox="group" data-caption="pm-user" class="fancybox"><img alt="pm-user" title="pm-user" data-src="https://s2.ax1x.com/2020/03/07/3jOYEn.png" class="lazyload"></a></p>
 <a id="more"></a>
 
 <h4 id="缩写"><a href="#缩写" class="headerlink" title="缩写"></a>缩写</h4><p>软件项目体系中，常用到的一些角色名称与对应的中英文缩写如下，下文相关角色将以缩写代替。</p>
@@ -222,7 +222,6 @@
     <title>Android Command</title>
     <url>/2019/08/13/Android-Command/</url>
     <content><![CDATA[<html><head></head><body><p>众所周知 Android系统是基于linux内核的，因而linux上的一些命令行基本上Android上也能适用，有时候有些有些阉割的命令也可以通过busybox这个命令工具做补充。本文总结Android开发常用的一些的命令行操作，带你走进不一样的空间体验。命令太多，建议收藏，有需要时搜索就行。</p>
-<p><a href="/images/android-command.jpg" data-fancybox="group" data-caption="android-command" class="fancybox"><img alt="android-command" title="android-command" data-src="/images/android-command.jpg" class="lazyload"></a></p>
 <a id="more"></a>
 
 <h1 id="Adb常用命令"><a href="#Adb常用命令" class="headerlink" title="Adb常用命令"></a>Adb常用命令</h1><h3 id="adb-connect-ip-port"><a href="#adb-connect-ip-port" class="headerlink" title="adb connect ip:port"></a>adb connect ip:port</h3><p>  连接指定设备<br>  </p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">shell</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">Laird-MacBook-Pro:~ laird$ adb connect 192.168.3.43:5555</span><br><span class="line">already connected to 192.168.3.43:5555</span><br><span class="line">Laird-MacBook-Pro:~ laird$</span><br></pre></td></tr></tbody></table></figure></div><p></p>
@@ -366,7 +365,6 @@
     <content><![CDATA[<html><head></head><body><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p> 最近看完了卡纳基的<strong><em>《人性的弱点》</em></strong>，读之前以为是写人性的弱点，其实完全两码事，其实英文题目最合适内容—<strong><em>《How to win friends and influence people》</em></strong>（如何赢得朋友，影响人们） ,不知为何如此翻译？可能博人眼球，亦或酒香也怕巷子深！</p>
 <p>读完本书最大的感受，其实就是以他人为中心，换位思考，当然这在大部分社交中是适合的，但是在实际应用中，特别是工作中，可能就不是那么回事，你越妥协，别人反而可能越觉得你是软柿子，谁见了都想捏！</p>
 <p>但总体来说，该书总结的与人很相处的很多行为准则，还是非常值得点赞的。</p>
-<p><a href="/images/win-friends.jpg" data-fancybox="group" data-caption="win-friends" class="fancybox"><img alt="win-friends" title="win-friends" data-src="/images/win-friends.jpg" class="lazyload"></a></p>
 <a id="more"></a>
 
 <h4 id="与人相处的基本技巧"><a href="#与人相处的基本技巧" class="headerlink" title="与人相处的基本技巧"></a>与人相处的基本技巧</h4><ul>
@@ -515,7 +513,7 @@
     <url>/2019/07/09/Android-Tv/</url>
     <content><![CDATA[<html><head></head><body><p>本文总结Android-TV开发过程中，常见的基础知识点，主要分为TV-UI,IPTV,OTT,DVB,TVOS,DEBUG等几大模块展开。适用于常见盒子，电视，投影仪等TV开发。</p>
 <h3 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h3><p>开局一张图，直接上脑图</p>
-<p><a href="https://lairdli.top/images/android-tv.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://lairdli.top/images/android-tv.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jOC9K.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://s2.ax1x.com/2020/03/07/3jOC9K.png" class="lazyload"></a></p>
 <a id="more"></a>
 
 <h3 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h3><p>Android TV 界面开发有别与传统的移动手机端开发，TV端的交互主要是有用户遥控器操作完成，因而在TV上按键和焦点的处理显得尤为重要，其次TV端的输出显示媒介主要是电视显示屏，不同的电视所能支持的输入显示分辨率也不一样，因而分辨率的适配也是TV界面开发需要考虑的一点，除此之外TV界面的设计也与手机上的小屏显示不一样，由于是大屏显示，对UI的设计需更加偏平话，便捷化。</p>
@@ -673,7 +671,7 @@
     <url>/2019/07/09/Vcs-Git/</url>
     <content><![CDATA[<html><head></head><body><p>本文总结版本控制工具git在日常开发工作常用到的一些命令，以及一些常用的场景应用，比如分支管理，远程管理，合并冲突处理等。后续持续更新中。</p>
 <h4 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h4><p>下面的图片很清晰的说明来一些命令和各个区域的关系 </p>
-<p><a href="https://lairdli.top/images/git-command.png" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="https://lairdli.top/images/git-command.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jOn4P.jpg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="https://s2.ax1x.com/2020/03/07/3jOn4P.jpg" class="lazyload"></a></p>
 <h5 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h5><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">git remote add origin git@github.com:yeszao/dofiler.git   <span class="comment"># 配置远程git版本库</span></span><br><span class="line">git pull origin master                                    <span class="comment"># 下载代码及快速合并 </span></span><br><span class="line">git push origin master                                    <span class="comment"># 上传代码及快速合并</span></span><br><span class="line">git fetch origin                                          <span class="comment"># 从远程库获取代码</span></span><br><span class="line"></span><br><span class="line">git branch                                                <span class="comment"># 显示所有分支</span></span><br><span class="line">git checkout master                                       <span class="comment"># 切换到master分支</span></span><br><span class="line">git checkout -b dev                                       <span class="comment"># 创建并切换到dev分支</span></span><br><span class="line">git commit -m <span class="string">"first version"</span>                             <span class="comment"># 提交</span></span><br><span class="line"></span><br><span class="line">git status                                                <span class="comment"># 查看状态</span></span><br><span class="line">git <span class="built_in">log</span>                                                   <span class="comment"># 查看提交历史</span></span><br><span class="line"></span><br><span class="line">git config --global core.editor vim                       <span class="comment"># 设置默认编辑器为vim（git默认用nano）</span></span><br><span class="line">git config core.ignorecase <span class="literal">false</span>                          <span class="comment"># 设置大小写敏感</span></span><br><span class="line">git config --global user.name <span class="string">"YOUR NAME"</span>                 <span class="comment"># 设置用户名</span></span><br><span class="line">git config --global user.email <span class="string">"YOUR EMAIL ADDRESS"</span>       <span class="comment"># 设置邮箱</span></span><br></pre></td></tr></tbody></table></figure></div>
 <a id="more"></a>
 
@@ -687,7 +685,7 @@
 <h5 id="远程操作"><a href="#远程操作" class="headerlink" title="远程操作"></a>远程操作</h5><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">git remote -v                   <span class="comment"># 查看远程版本库信息</span></span><br><span class="line">git remote show <remote>        <span class="comment"># 查看指定远程版本库信息</span></remote></span><br><span class="line">git remote add <remote> <url>   <span class="comment"># 添加远程版本库</span></url></remote></span><br><span class="line">git remote remove <remote>      <span class="comment"># 删除指定的远程版本库</span></remote></span><br><span class="line">git fetch <remote>              <span class="comment"># 从远程库获取代码</span></remote></span><br><span class="line">git pull <remote> <branch>      <span class="comment"># 下载代码及快速合并</span></branch></remote></span><br><span class="line">git push <remote> <branch>      <span class="comment"># 上传代码及快速合并</span></branch></remote></span><br><span class="line">git push <remote> :<branch tag-name> <span class="comment"># 删除远程分支或标签</span></branch></remote></span><br><span class="line">git push --tags                 <span class="comment"># 上传所有标签</span></span><br></pre></td></tr></tbody></table></figure></div>
 
 <h4 id="Git-分支管理"><a href="#Git-分支管理" class="headerlink" title="Git 分支管理"></a>Git 分支管理</h4><p>Git Flow流程管理,参见如下图</p>
-<p><a href="https://lairdli.top/images//git-flow.png" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="https://lairdli.top/images//git-flow.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jOK9f.png" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="https://s2.ax1x.com/2020/03/07/3jOK9f.png" class="lazyload"></a></p>
 <h5 id="主分支master"><a href="#主分支master" class="headerlink" title="主分支master"></a>主分支master</h5><h5 id="开发分支develop"><a href="#开发分支develop" class="headerlink" title="开发分支develop"></a>开发分支develop</h5><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">git checkout -b develop master</span><br><span class="line"><span class="comment"># 切换到Master分支</span></span><br><span class="line">git checkout master</span><br><span class="line"><span class="comment"># 对Develop分支进行合并,使用--no-ff参数后，会执行正常合并，</span></span><br><span class="line"><span class="comment"># 在Master分支上生成一个新节点。</span></span><br><span class="line"><span class="comment"># 为了保证版本演进的清晰，我们希望采用这种做法。</span></span><br><span class="line">git merge --no-ff develop</span><br></pre></td></tr></tbody></table></figure></div>
 
 <h5 id="临时分支"><a href="#临时分支" class="headerlink" title="临时分支"></a>临时分支</h5><ul>
@@ -778,7 +776,7 @@
     <url>/2019/06/29/Android-Material-Design/</url>
     <content><![CDATA[<html><head></head><body><h2 id="Android-Material-Design"><a href="#Android-Material-Design" class="headerlink" title="Android Material Design"></a>Android Material Design</h2><p>Material Design（质感设计）是google在Android 5.0提出的一种全新的设计理论，旨在为手机，平板，TV，电脑 等平台提供一致的设计与体验。</p>
 <h3 id="导图"><a href="#导图" class="headerlink" title="导图"></a>导图</h3><p>开局一张图，直接上脑图</p>
-<p><a href="https://lairdli.top/images/android-material-design.png" data-fancybox="group" data-caption="android-material-design" class="fancybox"><img alt="android-material-design" title="android-material-design" data-src="https://lairdli.top/images/android-material-design.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jLjB9.png" data-fancybox="group" data-caption="android-material-design" class="fancybox"><img alt="android-material-design" title="android-material-design" data-src="https://s2.ax1x.com/2020/03/07/3jLjB9.png" class="lazyload"></a></p>
 <a id="more"></a>
 
 <h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><h4 id="设计思想"><a href="#设计思想" class="headerlink" title="设计思想"></a>设计思想</h4><p>Material Design的设计思想是为了保持跨平台设计的一致性，将物理世界的体验带入屏幕，去掉物理世界的杂质，再加上虚拟世界的灵活特效，带给用户最接近现实的体验。</p>
@@ -917,7 +915,7 @@
     <title>Android Release</title>
     <url>/2019/06/24/Android-Release/</url>
     <content><![CDATA[<html><head></head><body><h4 id="Android-Release"><a href="#Android-Release" class="headerlink" title="Android Release"></a>Android Release</h4><p>Android版本目前最新已发布了Android 9.0 Q测试版，本文旨在总结目前Android各个Release版本的新特性，以供App开发时，进行更好的版本适配，新功能开发。</p>
-<h5 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h5><p>开局一张图，直接上脑图<br><a href="https://lairdli.top/images/android-release.png" data-fancybox="group" data-caption="Android Release" class="fancybox"><img alt="Android Release" title="Android Release" data-src="https://lairdli.top/images/android-release.png" class="lazyload"></a></p>
+<h5 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h5><p>开局一张图，直接上脑图<br><a href="https://s2.ax1x.com/2020/03/07/3jOStx.png" data-fancybox="group" data-caption="Android Release" class="fancybox"><img alt="Android Release" title="Android Release" data-src="https://s2.ax1x.com/2020/03/07/3jOStx.png" class="lazyload"></a></p>
 <a id="more"></a>
 
 <h5 id="Android-9-Pie"><a href="#Android-9-Pie" class="headerlink" title="Android 9 Pie"></a>Android 9 Pie</h5><blockquote>
@@ -1019,7 +1017,7 @@
 <p>本文总结整理了软件开发过程中的那些实用软件与工具，主要基于Android开发，其他行业语种开发，也大部分适用，请自行参考，有了这些”神兵利器”的协助，基本上能搞定日常工作中的开发需求了。</p>
 <p>希望对不断上进的你有所帮助！</p>
 <h4 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h4><p>开局一张图，直接上脑图</p>
-<p><a href="https://lairdli.top/images/android-helper.png" data-fancybox="group" data-caption="Android Helper" class="fancybox"><img alt="Android Helper" title="Android Helper" data-src="https://lairdli.top/images/android-helper.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jLIkq.png" data-fancybox="group" data-caption="Android Helper" class="fancybox"><img alt="Android Helper" title="Android Helper" data-src="https://s2.ax1x.com/2020/03/07/3jLIkq.png" class="lazyload"></a></p>
 <a id="more"></a>
 <h4 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h4><p>开发用的操作系统选择优先级 <em>macOS>Ubuntu>Windows</em></p>
 <p>如果经济允许强烈推荐上macOS,退而求其次Ubuntu,至于是装双系统或者上虚拟机，看个人习惯了。</p>
@@ -1186,7 +1184,7 @@
 <p>本文的目标是提供适当C/C++ RoadMap（路线图)，方便知识Review，以使你成为更好的Android/C开发人员。</p>
 <p> <em>There is no better way to learn something than by doing.</em></p>
 <h2 id="Getting-started-with-the-MindMap"><a href="#Getting-started-with-the-MindMap" class="headerlink" title="Getting started with the MindMap"></a><strong>Getting started with the MindMap</strong></h2><p>开局一张图，直接上脑图</p>
-<p><a href="https://lairdli.top/images/jni-c-journey.png" data-fancybox="group" data-caption="jni-c-journey" class="fancybox"><img alt="jni-c-journey" title="jni-c-journey" data-src="https://lairdli.top/images/jni-c-journey.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jOljg.png" data-fancybox="group" data-caption="jni-c-journey" class="fancybox"><img alt="jni-c-journey" title="jni-c-journey" data-src="https://s2.ax1x.com/2020/03/07/3jOljg.png" class="lazyload"></a></p>
 <a id="more"></a>
 
 <h2 id="First-comes-a-strong-core-foundation"><a href="#First-comes-a-strong-core-foundation" class="headerlink" title="First comes  a strong core foundation"></a>First comes  a strong core foundation</h2><blockquote>
@@ -1261,7 +1259,7 @@
 <p>本文的目标是提供适当Android-JNI-NDK RoadMap（路线图)，列出常见需要注意的点，方便知识Review，以使你成为更好的Android/NDK开发人员。本文不会详情的展示如何演示脑图所展示的知识点，展开来谈，一篇的篇幅远远不够，但文章末会列出相关学习资源，给认真学习上进的你。</p>
 <p> <em>There is no better way to learn something than by doing.</em></p>
 <h2 id="Getting-started-with-the-MindMap"><a href="#Getting-started-with-the-MindMap" class="headerlink" title="Getting started with the MindMap"></a><strong>Getting started with the MindMap</strong></h2><p>开局一张图，直接上脑图</p>
-<p><a href="https://lairdli.top/images/jni-ndk-roadmap.png" data-fancybox="group" data-caption="jni-c-journey" class="fancybox"><img alt="jni-c-journey" title="jni-c-journey" data-src="https://lairdli.top/images/jni-ndk-roadmap.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jOGHs.png" data-fancybox="group" data-caption="jni-c-journey" class="fancybox"><img alt="jni-c-journey" title="jni-c-journey" data-src="https://s2.ax1x.com/2020/03/07/3jOGHs.png" class="lazyload"></a></p>
 <a id="more"></a>
 
 <h2 id="First-comes-a-strong-core-foundation"><a href="#First-comes-a-strong-core-foundation" class="headerlink" title="First comes  a strong core foundation"></a>First comes  a strong core foundation</h2><ul>
@@ -1355,7 +1353,6 @@
     <content><![CDATA[<html><head></head><body><h1 id="Android-RoadMap"><a href="#Android-RoadMap" class="headerlink" title="Android RoadMap"></a>Android RoadMap</h1><p>翻译整理国外Android开发总结的一篇博文，原文路径：</p>
 <p><a href="https://link.medium.com/o13FgtRpHW" target="_blank" rel="noopener">“A Roadmap To Become A Better Android Developer” by Amit Shekhar </a></p>
 <p>文章传送门比较多，信息量比较大，需自备梯子。</p>
-<p><a href="https://lairdli.top/images/android-developer-roadMap.png" data-fancybox="group" data-caption="android developer's roadMap" class="fancybox"><img alt="android developer's roadMap" title="android developer's roadMap" data-src="https://lairdli.top/images/android-developer-roadMap.png" class="lazyload"></a></p>
 <h2 id="Let’s-become-a-better-Android-Developer"><a href="#Let’s-become-a-better-Android-Developer" class="headerlink" title="Let’s become a better Android Developer"></a>Let’s become a better Android Developer</h2><p>本文使用于：</p>
 <blockquote>
 <ol>
@@ -1471,10 +1468,9 @@
 <li><strong>架构组件–Componentization</strong> </li>
 </ul>
 </blockquote>
-<p><a href="/images/android-3rd-libs.png" data-fancybox="group" data-caption="android-3rd-libs" class="fancybox"><img alt="android-3rd-libs" title="android-3rd-libs" data-src="/images/android-3rd-libs.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jLXnJ.png" data-fancybox="group" data-caption="android-3rd-libs" class="fancybox"><img alt="android-3rd-libs" title="android-3rd-libs" data-src="https://s2.ax1x.com/2020/03/07/3jLXnJ.png" class="lazyload"></a></p>
 <a id="more"></a>
 
-<p><a href="https://lairdli.top/images/android-3rd-libs.png">点我看大图</a></p>
 <h2 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h2><blockquote>
 <ul>
 <li><p>[CircleImageView] (<a href="https://github.com/hdodenhof/CircleImageView" target="_blank" rel="noopener">https://github.com/hdodenhof/CircleImageView</a>) 提供Android圆角图片库</p>
@@ -1652,10 +1648,8 @@
     <title>Android Journey</title>
     <url>/2019/01/30/Android-Journey/</url>
     <content><![CDATA[<html><head></head><body><h1 id="Android-Journey"><a href="#Android-Journey" class="headerlink" title="Android Journey"></a>Android Journey</h1><p>  新的2019年，新的开始，做一个Android相关知识整理，资源聚合。</p>
-<h2 id="00-Mind-Mapping"><a href="#00-Mind-Mapping" class="headerlink" title="00.Mind Mapping"></a>00.Mind Mapping</h2><p><a href="https://lairdli.top/images/android-journey.png" data-fancybox="group" data-caption="android-journey-mind-mapping" class="fancybox"><img alt="android-journey-mind-mapping" title="android-journey-mind-mapping" data-src="https://lairdli.top/images/android-journey.png" class="lazyload"></a></p>
 <a id="more"></a>
 
-<p><a href="https://lairdli.top/images/android-journey.png">点我看大图</a></p>
 <h2 id="01-Core-Java"><a href="#01-Core-Java" class="headerlink" title="01.Core Java"></a>01.Core Java</h2><p>Main Points</p>
 <blockquote>
 <p>OOP思想，接口与抽象，迭代与枚举，组合与继承，重载与重写，修饰符，多态与继承，多继承</p>
