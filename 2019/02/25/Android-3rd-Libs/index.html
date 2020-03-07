@@ -1,0 +1,280 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Android 3rd Libs | 黎明鸟飞去</title><meta name="description" content="Android 3rd Libs"><meta name="keywords" content="Android,Libs"><meta name="author" content="laird.li"><meta name="copyright" content="laird.li"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link rel="preconnect" href="//busuanzi.ibruce.info"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Android 3rd Libs"><meta name="twitter:description" content="Android 3rd Libs"><meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png"><meta property="og:type" content="article"><meta property="og:title" content="Android 3rd Libs"><meta property="og:url" content="https://lairdli.top/2019/02/25/Android-3rd-Libs/"><meta property="og:site_name" content="黎明鸟飞去"><meta property="og:description" content="Android 3rd Libs"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = 'false'
+var t = Cookies.get("theme");
+if (autoChangeMode == '1'){
+const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+if (t === undefined){
+  if (isLightMode) activateLightMode()
+  else if (isDarkMode) activateDarkMode()
+  else if (isNotSpecified || hasNoSupport){
+    console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+    now = new Date();
+    hour = now.getHours();
+    isNight = hour < 6 || hour >= 18
+    isNight ? activateDarkMode() : activateLightMode()
+}
+} else if (t == 'light') activateLightMode()
+else activateDarkMode()
+
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://lairdli.top/2019/02/25/Android-3rd-Libs/"><link rel="prev" title="Android RoadMap" href="https://lairdli.top/2019/05/19/Android-RoadMap/"><link rel="next" title="Android Journey" href="https://lairdli.top/2019/01/30/Android-Journey/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://lairdli.top/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"title":"Snackbar.bookmark.title","message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  baiduPush: false,
+  isHome: false,
+  isPost: true
+  
+}</script><meta name="generator" content="Hexo 4.2.0"></head><body><header> <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">黎明鸟飞去</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> About</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div></header><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">16</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">20</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">6</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> About</span></a></div></div></div><div id="mobile-sidebar-toc"><div class="toc_mobile_headline">目录</div><div class="sidebar-toc__content"><ol class="toc_mobile_items"><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Mind-Mapping"><span class="toc_mobile_items-number">1.</span> <span class="toc_mobile_items-text">Mind Mapping</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#UI"><span class="toc_mobile_items-number">2.</span> <span class="toc_mobile_items-text">UI</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#WebView"><span class="toc_mobile_items-number">3.</span> <span class="toc_mobile_items-text">WebView</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Net-Requst"><span class="toc_mobile_items-number">4.</span> <span class="toc_mobile_items-text">Net Requst</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Data-Parse"><span class="toc_mobile_items-number">5.</span> <span class="toc_mobile_items-text">Data Parse</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#DataBase"><span class="toc_mobile_items-number">6.</span> <span class="toc_mobile_items-text">DataBase</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Image-Load"><span class="toc_mobile_items-number">7.</span> <span class="toc_mobile_items-text">Image Load</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Cache"><span class="toc_mobile_items-number">8.</span> <span class="toc_mobile_items-text">Cache</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Dependency-Injection"><span class="toc_mobile_items-number">9.</span> <span class="toc_mobile_items-text">Dependency Injection</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Reactive"><span class="toc_mobile_items-number">10.</span> <span class="toc_mobile_items-text">Reactive</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Event-Bus"><span class="toc_mobile_items-number">11.</span> <span class="toc_mobile_items-text">Event Bus</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Permissions"><span class="toc_mobile_items-number">12.</span> <span class="toc_mobile_items-text">Permissions</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Componentization"><span class="toc_mobile_items-number">13.</span> <span class="toc_mobile_items-text">Componentization</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#Utlis"><span class="toc_mobile_items-number">14.</span> <span class="toc_mobile_items-text">Utlis</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#End"><span class="toc_mobile_items-number">15.</span> <span class="toc_mobile_items-text">End</span></a></li></ol></div></div></div><div id="body-wrap"><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true">     </i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Mind-Mapping"><span class="toc-number">1.</span> <span class="toc-text">Mind Mapping</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#UI"><span class="toc-number">2.</span> <span class="toc-text">UI</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#WebView"><span class="toc-number">3.</span> <span class="toc-text">WebView</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Net-Requst"><span class="toc-number">4.</span> <span class="toc-text">Net Requst</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Data-Parse"><span class="toc-number">5.</span> <span class="toc-text">Data Parse</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DataBase"><span class="toc-number">6.</span> <span class="toc-text">DataBase</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Image-Load"><span class="toc-number">7.</span> <span class="toc-text">Image Load</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cache"><span class="toc-number">8.</span> <span class="toc-text">Cache</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Dependency-Injection"><span class="toc-number">9.</span> <span class="toc-text">Dependency Injection</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Reactive"><span class="toc-number">10.</span> <span class="toc-text">Reactive</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Event-Bus"><span class="toc-number">11.</span> <span class="toc-text">Event Bus</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Permissions"><span class="toc-number">12.</span> <span class="toc-text">Permissions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Componentization"><span class="toc-number">13.</span> <span class="toc-text">Componentization</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Utlis"><span class="toc-number">14.</span> <span class="toc-text">Utlis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#End"><span class="toc-number">15.</span> <span class="toc-text">End</span></a></li></ol></div></div></div><main id="content-outer"><div id="top-container" style="background-image: url(https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png)"><div id="post-info"><div id="post-title"><div class="posttitle">Android 3rd Libs</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 发表于 2019-02-25<span class="post-meta__separator">|</span><i class="fa fa-history fa-fw" aria-hidden="true"></i> 更新于 2020-03-07</time><span class="post-meta__separator">|</span><span><i class="fa fa-inbox post-meta__icon fa-fw" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/Android/">Android</a></span><div class="post-meta-wordcount"><i class="fa fa-file-word-o post-meta__icon fa-fw" aria-hidden="true"></i><span>字数总计:</span><span class="word-count">1.4k</span><span class="post-meta__separator">|</span><i class="fa fa-clock-o post-meta__icon fa-fw" aria-hidden="true"></i><span>阅读时长: 4 分钟</span><div class="post-meta-pv-cv"><span class="post-meta__separator">|</span><span><i class="fa fa-eye post-meta__icon fa-fw" aria-hidden="true"> </i>阅读量:</span><span id="busuanzi_value_page_pv"></span><span class="post-meta__separator">|</span><i class="fa fa-comments-o post-meta__icon fa-fw" aria-hidden="true"></i><span>评论数:</span><a href="/2019/02/25/Android-3rd-Libs/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/2019/02/25/Android-3rd-Libs/" itemprop="commentCount"></span></a></div></div></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content"><p>总结个人Android开发过程中常用的（经典的）第三方库。</p>
+<p>方便技术选型，记忆回顾。持续 更新中……</p>
+<h2 id="Mind-Mapping"><a href="#Mind-Mapping" class="headerlink" title="Mind Mapping"></a>Mind Mapping</h2><p>对应如下思维导图所描述，第三方库按功能分，大致可以分为如下几类：</p>
+<blockquote>
+<ul>
+<li><strong>UI</strong></li>
+<li><strong>WebView</strong></li>
+<li><strong>网络请求-Net Requst</strong></li>
+<li><strong>数据解析-Data Parse</strong></li>
+<li><strong>数据库    -DataBase</strong></li>
+<li><strong>图片加载-Image Load</strong></li>
+<li><strong>缓存框架-Cache</strong></li>
+<li><strong>依赖注册-Dependency Injection</strong></li>
+<li><strong>响应式  -Reactive</strong></li>
+<li><strong>事件总线-Event Bus</strong></li>
+<li><strong>权限适配-Permissions</strong></li>
+<li><strong>架构组件–Componentization</strong> </li>
+</ul>
+</blockquote>
+<p><a href="/images/android-3rd-libs.png" data-fancybox="group" data-caption="android-3rd-libs" class="fancybox"><img alt="android-3rd-libs" title="android-3rd-libs" data-src="/images/android-3rd-libs.png" class="lazyload"></a></p>
+<a id="more"></a>
+
+<p><a href="https://lairdli.top/images/android-3rd-libs.png">点我看大图</a></p>
+<h2 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h2><blockquote>
+<ul>
+<li><p>[CircleImageView] (<a href="https://github.com/hdodenhof/CircleImageView" target="_blank" rel="noopener">https://github.com/hdodenhof/CircleImageView</a>) 提供Android圆角图片库</p>
+</li>
+<li><p><a href="https://github.com/chrisbanes/PhotoView" target="_blank" rel="noopener">PhotoView</a> 通过各种触摸手势实现支持缩放的Android Image View</p>
+</li>
+<li><p><a href="https://github.com/YoKeyword/Fragmentation" target="_blank" rel="noopener">Fragmentation</a> 一个功能强大的库用于管理Android-Fragment！</p>
+</li>
+<li><p><a href="https://github.com/mikepenz/MaterialDrawer" target="_blank" rel="noopener">MaterialDrawer</a> 适用于Android项目的灵活，易用，一体化抽屉库</p>
+</li>
+<li><p><a href="https://github.com/afollestad/material-dialogs" target="_blank" rel="noopener">material-dialogs</a> 适用于Kotlin和Android的漂亮流畅的对话框API</p>
+</li>
+<li><p><a href="https://github.com/CymChad/BaseRecyclerViewAdapterHelper" target="_blank" rel="noopener">BaseRecyclerViewAdapterHelper</a> 功能强大且灵活的RecyclerAdapter</p>
+</li>
+<li><p><a href="https://github.com/mikepenz/FastAdapter" target="_blank" rel="noopener">FastAdapter</a> 快速且易用的适配器库</p>
+</li>
+<li><p><a href="https://github.com/zxing/zxing" target="_blank" rel="noopener">zxing</a> ZXing（“Zebra Crossing”）用于Java，Android的条形码扫描库</p>
+</li>
+<li><p><a href="https://github.com/airbnb/lottie-android" target="_blank" rel="noopener">Lottie</a> 在Android和iOS，Web和React Native上渲染After Effects动画库</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="WebView"><a href="#WebView" class="headerlink" title="WebView"></a>WebView</h2><blockquote>
+<ul>
+<li><p><a href="https://github.com/Justson/AgentWeb" target="_blank" rel="noopener">AgentWeb</a> AgentWeb是一个基于Android WebView的强大库</p>
+</li>
+<li><p><a href="https://crosswalk-project.org/index_zh.html" target="_blank" rel="noopener">Crosswalk</a> 采用了 <code>Chromenium</code> 内核，是一款开源的 <code>web</code> 引擎</p>
+</li>
+<li><p><a href="https://x5.tencent.com/" target="_blank" rel="noopener">X5</a> X5内核是腾讯基于优秀开源Webkit [1]  深度优化的浏览器渲染引擎</p>
+</li>
+<li><p><a href="https://github.com/JackyAndroid/AndroidChromium" target="_blank" rel="noopener">AndroidChromium</a>  google开源的Android版本的Chormium浏览器源码</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="Net-Requst"><a href="#Net-Requst" class="headerlink" title="Net Requst"></a>Net Requst</h2><blockquote>
+<ul>
+<li><a href="https://github.com/google/volley" target="_blank" rel="noopener">Volley</a>  google开源HTTP库，它使Android应用程序的网络更容易，最重要的是，更快</li>
+<li><a href="https://github.com/koush/AndroidAsync" target="_blank" rel="noopener">AndroidAsync</a> 一个底层网络协议库，更多解锁功能可以结合<a href="https://github.com/koush/ion" target="_blank" rel="noopener">Ion</a> 使用。</li>
+<li><a href="https://github.com/square/okhttp" target="_blank" rel="noopener">OkHttp</a> square出品，适用于Android和Java应用程序的HTTP + HTTP / 2客户端。</li>
+<li><a href="https://github.com/square/retrofit" target="_blank" rel="noopener">Retrofit</a> square出品，适用于Android和Java的类型安全的HTTP客户端。</li>
+<li><a href="https://github.com/eclipse/paho.mqtt.android" target="_blank" rel="noopener">paho.mqtt.android</a>  适用于MQTT </li>
+<li><a href="https://github.com/karlmdavis/ksoap2-android" target="_blank" rel="noopener">ksoap2-android</a> 适用于Android平台的轻量级高效SOAP库。</li>
+<li><a href="https://github.com/NanoHttpd/nanohttpd" target="_blank" rel="noopener">nanohttpd</a>  适用于Android-Java中的小巧，易于嵌入的HTTP服务器</li>
+</ul>
+<p>除以上开源第三方库外，Android还自带以下网络请求模块</p>
+<ul>
+<li>HttpUrlConnection 适用于Android 2.3及以上版本，api简单，易扩展升级</li>
+<li>HttpClient 可兼容Android 2.3一下版本，api数量多，不易扩展</li>
+<li>AsyncTask Android封装好的轻量级异步类，使用时需实现子类</li>
+</ul>
+</blockquote>
+<h2 id="Data-Parse"><a href="#Data-Parse" class="headerlink" title="Data Parse"></a>Data Parse</h2><blockquote>
+<ul>
+<li><p><a href="https://github.com/google/gson" target="_blank" rel="noopener">Gson/Json</a> google出品，一个Java序列化/反序列化库，用于将Java对象转换为JSON并返回</p>
+</li>
+<li><p><a href="https://github.com/FasterXML/jackson" target="_blank" rel="noopener">JackSon/Json </a> 用于处理JSON和XML格式化的类库</p>
+</li>
+<li><p><a href="https://github.com/alibaba/fastjson" target="_blank" rel="noopener">FastJson/Json</a> alibaba出品，用于Java的快速JSON解析器/生成器</p>
+</li>
+<li><p><a href="https://github.com/jhy/jsoup" target="_blank" rel="noopener">Jsoup/Html</a> 用于Java解析HTML</p>
+</li>
+<li><p><a href="https://github.com/dom4j/dom4j" target="_blank" rel="noopener">dom4j</a> 用于Xml解析</p>
+</li>
+</ul>
+<p>除此之外，Android还自带XMl解析，主要分三类</p>
+<ul>
+<li>SAX(Simple API for XML)</li>
+<li>DOM</li>
+<li>POll (<a href="http://xmlpull.org/" target="_blank" rel="noopener">XmlPull</a>)</li>
+</ul>
+</blockquote>
+<h2 id="DataBase"><a href="#DataBase" class="headerlink" title="DataBase"></a>DataBase</h2><blockquote>
+<ul>
+<li><p><a href="https://github.com/LitePalFramework/LitePal" target="_blank" rel="noopener">LitePal</a>  郭林大神开源的一款基于ORM模式的SQLite数据库框架</p>
+</li>
+<li><p><a href="https://github.com/greenrobot/greenDAO" target="_blank" rel="noopener">GreenDao</a> 一款轻松快速的Android ORM解决方案，可将对象映射到SQLite数据库</p>
+</li>
+<li><p><a href="https://github.com/objectbox/objectbox-java" target="_blank" rel="noopener">Object-Box</a>ObjectBox是一个用于对象的超快速轻量级数据库</p>
+</li>
+<li><p><a href="https://github.com/square/sqlbrite" target="_blank" rel="noopener">SQLBrite</a> 对 Android 系统的<code>SQLiteOpenHelper</code>和 <code>ContentResolver</code> 的轻量级封装,配合Rxjava使用</p>
+</li>
+<li><p><a href="https://github.com/realm/realm-java" target="_blank" rel="noopener">Realm</a> 是一个移动数据库：SQLite和ORM的替代品</p>
+<p>除此之外，<a href="https://developer.android.google.cn/jetpack" target="_blank" rel="noopener">Android Jetpack</a>架构组件中自带的<a href="https://developer.android.google.cn/topic/libraries/architecture/room" target="_blank" rel="noopener">Room</a>组件，也是基于ORM的SQlite数据库框架</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="Image-Load"><a href="#Image-Load" class="headerlink" title="Image Load"></a>Image Load</h2><blockquote>
+<ul>
+<li><a href="https://github.com/nostra13/Android-Universal-Image-Loader" target="_blank" rel="noopener">Android-Universal-Image-Loader</a>老牌图片加载，显示，缓存库</li>
+<li><a href="https://github.com/bumptech/glide" target="_blank" rel="noopener">Glide</a> google推荐的图片加载，显示，缓存库</li>
+<li><a href="https://github.com/square/picasso" target="_blank" rel="noopener">Picasso</a> 适用于Android的强大图像下载和缓存库</li>
+<li><a href="https://github.com/facebook/fresco" target="_blank" rel="noopener">Fresco</a> facebook出品，用于管理图像及其使用内存的Android库</li>
+</ul>
+</blockquote>
+<h2 id="Cache"><a href="#Cache" class="headerlink" title="Cache"></a>Cache</h2><blockquote>
+<ul>
+<li><a href="https://github.com/JakeWharton/DiskLruCache" target="_blank" rel="noopener">DiskLruCache</a>基于磁盘的LRU缓存的Java实现，专门针对Android兼容性</li>
+</ul>
+</blockquote>
+<h2 id="Dependency-Injection"><a href="#Dependency-Injection" class="headerlink" title="Dependency Injection"></a>Dependency Injection</h2><blockquote>
+<ul>
+<li><a href="https://github.com/JakeWharton/butterknife" target="_blank" rel="noopener">ButterKnife</a> 将Android视图和回调绑定到字段和方法,省去findviewbyid</li>
+<li><a href="https://github.com/square/dagger" target="_blank" rel="noopener">Dagger</a> 适用于Android和Java的快速依赖注入器,Ioc,依赖解耦，控制反转，建议MVP架构搭配适用 </li>
+</ul>
+</blockquote>
+<h2 id="Reactive"><a href="#Reactive" class="headerlink" title="Reactive"></a>Reactive</h2><blockquote>
+<ul>
+<li><a href="https://github.com/ReactiveX/RxJava" target="_blank" rel="noopener">RxJava</a> JVM的Reactive Extensions - 一个使用Java VM的可观察序列组成异步和基于事件的程序的库</li>
+<li>[RxAndroid </li>
+<li>](<a href="https://github.com/ReactiveX/RxAndroid)适用于Android的RxJava绑定" target="_blank" rel="noopener">https://github.com/ReactiveX/RxAndroid)适用于Android的RxJava绑定</a></li>
+<li><a href="https://github.com/JakeWharton/RxBinding" target="_blank" rel="noopener">RxBinding</a> 用于Android UI小部件的RxJava绑定API。</li>
+<li><a href="https://github.com/google/agera" target="_blank" rel="noopener">Agera</a> Android的反应式编程，Agera是一组类和接口，用于帮助编写Android的功能，异步和响应式应用程序</li>
+</ul>
+</blockquote>
+<h2 id="Event-Bus"><a href="#Event-Bus" class="headerlink" title="Event Bus"></a>Event Bus</h2><blockquote>
+<ul>
+<li><a href="https://github.com/greenrobot/EventBus" target="_blank" rel="noopener">EventBus </a> 适用于Android和Java的事件总线，可简化活动，碎片，线程，服务等之间的通信。减少代码，提高质量。</li>
+<li><a href="https://github.com/square/otto" target="_blank" rel="noopener">Otto</a> 基于Guava的事件总线的Android支持库，组件化通讯，减低耦合性</li>
+</ul>
+</blockquote>
+<h2 id="Permissions"><a href="#Permissions" class="headerlink" title="Permissions"></a>Permissions</h2><blockquote>
+<ul>
+<li><p><a href="https://github.com/permissions-dispatcher/PermissionsDispatcher" target="_blank" rel="noopener">PermissionsDispatcher</a> 基于简单注释的API，用于处理Android运行时权限</p>
+</li>
+<li><p><a href="https://github.com/tbruyelle/RxPermissions" target="_blank" rel="noopener">RxPermissions</a> 能配合RxJava与新的Android M权限模型一起使用，用于处理Android运行时权限</p>
+</li>
+<li><p><a href="https://github.com/czy1121/settingscompat" target="_blank" rel="noopener">SettingsCompat</a> 特殊权限(Special Permissions)兼容库，悬浮窗权限(SYSTEM_ALERT_WINDOW)与系统设置修改权限(WRITE_SETTINGS)</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="Componentization"><a href="#Componentization" class="headerlink" title="Componentization"></a>Componentization</h2><blockquote>
+<ul>
+<li><a href="https://github.com/alibaba/ARouter" target="_blank" rel="noopener">ARouter</a>  alibaba出品，帮助 Android App 进行组件化改造的路由框架</li>
+<li><a href="https://github.com/meituan/WMRouter" target="_blank" rel="noopener">WMRouter</a> 美团出品，是一款Android路由框架，基于组件化的设计思路，有功能灵活、使用简单的特点</li>
+</ul>
+</blockquote>
+<h2 id="Utlis"><a href="#Utlis" class="headerlink" title="Utlis"></a>Utlis</h2><blockquote>
+<ul>
+<li><p><a href="https://github.com/orhanobut/logger" target="_blank" rel="noopener">Logger</a> 一款简易，精致，功能强大的Android日志库</p>
+</li>
+<li><p><a href="https://github.com/JakeWharton/timber" target="_blank" rel="noopener">timber</a> 一款小型可扩展API的日志类，可在Android的普通Log类之上提供实用程序，易集成扩展</p>
+</li>
+<li><p><a href="https://github.com/mikepenz/AboutLibraries" target="_blank" rel="noopener">AboutLibraries</a> 显示第三方库信息的库，一般在开源项目类引用。</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>其他扩展可参考</p>
+<blockquote>
+<ul>
+<li><a href="https://www.jianshu.com/p/383468f58fe1" target="_blank" rel="noopener">Android 开源项目及库汇总</a></li>
+<li><a href="https://github.com/JsonChao/Awesome-Third-Library-Source-Analysis" target="_blank" rel="noopener">Awesome-Third-Library-Source-Analysis</a></li>
+<li><a href="https://mindorks.com/android/store" target="_blank" rel="noopener">Android Store</a></li>
+</ul>
+</blockquote>
+<p>优秀的开源库数不胜数，以上总结Android常用框架，不要求全部掌握，但至少保证如下几点：</p>
+<blockquote>
+<ol>
+<li>不必重复造梯子，善用<a href="https://www.google.com.hk/" target="_blank" rel="noopener">google</a>，<a href="/github.com">github</a>等，以便技术选型。</li>
+<li>对照着官网,能会使用，跟进实际项目需求能对比选择合适3RD-Lib。</li>
+<li>经典的，使用频率比较高的开源框架，需理解其设计思想。</li>
+</ol>
+</blockquote>
+<p>好记性不如烂笔头，所用即所知，所思即所得。</p>
+<p>共勉学习之。</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">laird.li</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://lairdli.top/2019/02/25/Android-3rd-Libs/">https://lairdli.top/2019/02/25/Android-3rd-Libs/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://lairdli.top">黎明鸟飞去</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Android/">Android    </a><a class="post-meta__tags" href="/tags/Libs/">Libs    </a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/2019/05/19/Android-RoadMap/"><img class="prev_cover lazyload" data-src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png" onerror="onerror=null;src='/img/404.jpg'"><div class="label">上一篇</div><div class="prev_info"><span>Android RoadMap</span></div></a></div><div class="next-post pull_right"><a href="/2019/01/30/Android-Journey/"><img class="next_cover lazyload" data-src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png" onerror="onerror=null;src='/img/404.jpg'"><div class="label">下一篇</div><div class="next_info"><span>Android Journey</span></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2018/05/25/Android-Book-Recomendations/" title="Android Book Recomendations"><img class="relatedPosts_cover lazyload" data-src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2018-05-25</div><div class="relatedPosts_title">Android Book Recomendations</div></div></a></div><div class="relatedPosts_item"><a href="/2019/06/09/Android-C-RoadMap/" title="Android C Journey"><img class="relatedPosts_cover lazyload" data-src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2019-06-09</div><div class="relatedPosts_title">Android C Journey</div></div></a></div><div class="relatedPosts_item"><a href="/2019/08/13/Android-Command/" title="Android Command"><img class="relatedPosts_cover lazyload" data-src="/images/android-command.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2019-08-13</div><div class="relatedPosts_title">Android Command</div></div></a></div><div class="relatedPosts_item"><a href="/2019/06/18/Android-Helper/" title="Android Helper"><img class="relatedPosts_cover lazyload" data-src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2019-06-18</div><div class="relatedPosts_title">Android Helper</div></div></a></div><div class="relatedPosts_item"><a href="/2019/01/30/Android-Journey/" title="Android Journey"><img class="relatedPosts_cover lazyload" data-src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2019-01-30</div><div class="relatedPosts_title">Android Journey</div></div></a></div><div class="relatedPosts_item"><a href="/2019/06/29/Android-Material-Design/" title="Android Material Design"><img class="relatedPosts_cover lazyload" data-src="/images/materialdesign_top.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2019-06-29</div><div class="relatedPosts_title">Android Material Design</div></div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = false == true ? true : false;
+var verify = false == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = '昵称,邮箱,网址'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'1Hu1bIJ7mryL1UrfLfMixIWJ-gzGzoHsz',
+  appKey:'sYIxw9VkP2mXSIlAGAhIbXUd',
+  placeholder:'留下你的足迹吧！',
+  avatar:'monsterid',
+  guest_info:guest_info,
+  pageSize:'10',
+  lang:'zh-cn',
+  recordIP: true
+});</script></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">©2019 - 2020 By laird.li</div><div class="framework-info"><span>驱动 </span><a href="http://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async></script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script type="text/javascript" charset="utf-8" src="/js/lazyload-plugin/lazyload.intersectionObserver.min.js"></script></body></html>
