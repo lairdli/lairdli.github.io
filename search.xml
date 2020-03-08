@@ -513,7 +513,7 @@
     <url>/2019/07/09/Android-Tv/</url>
     <content><![CDATA[<html><head></head><body><p>本文总结Android-TV开发过程中，常见的基础知识点，主要分为TV-UI,IPTV,OTT,DVB,TVOS,DEBUG等几大模块展开。适用于常见盒子，电视，投影仪等TV开发。</p>
 <h3 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h3><p>开局一张图，直接上脑图</p>
-<p><a href="https://s2.ax1x.com/2020/03/07/3jOC9K.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://s2.ax1x.com/2020/03/07/3jOC9K.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jOC9K.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="https://s2.ax1x.com/2020/03/07/3jOC9K.png" class="lazyload" title></a></p>
 <a id="more"></a>
 
 <h3 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h3><p>Android TV 界面开发有别与传统的移动手机端开发，TV端的交互主要是有用户遥控器操作完成，因而在TV上按键和焦点的处理显得尤为重要，其次TV端的输出显示媒介主要是电视显示屏，不同的电视所能支持的输入显示分辨率也不一样，因而分辨率的适配也是TV界面开发需要考虑的一点，除此之外TV界面的设计也与手机上的小屏显示不一样，由于是大屏显示，对UI的设计需更加偏平话，便捷化。</p>
@@ -915,7 +915,7 @@
     <title>Android Release</title>
     <url>/2019/06/24/Android-Release/</url>
     <content><![CDATA[<html><head></head><body><h4 id="Android-Release"><a href="#Android-Release" class="headerlink" title="Android Release"></a>Android Release</h4><p>Android版本目前最新已发布了Android 9.0 Q测试版，本文旨在总结目前Android各个Release版本的新特性，以供App开发时，进行更好的版本适配，新功能开发。</p>
-<h5 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h5><p>开局一张图，直接上脑图<br><a href="https://s2.ax1x.com/2020/03/07/3jOStx.png" data-fancybox="group" data-caption="Android Release" class="fancybox"><img alt="Android Release" title="Android Release" data-src="https://s2.ax1x.com/2020/03/07/3jOStx.png" class="lazyload"></a></p>
+<h5 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h5><p>开局一张图，直接上脑图<br><a href="https://s2.ax1x.com/2020/03/07/3jOStx.png" data-fancybox="group" data-caption="Android Release" class="fancybox"><img alt="Android Release" data-src="https://s2.ax1x.com/2020/03/07/3jOStx.png" class="lazyload" title="Android Release"></a></p>
 <a id="more"></a>
 
 <h5 id="Android-9-Pie"><a href="#Android-9-Pie" class="headerlink" title="Android 9 Pie"></a>Android 9 Pie</h5><blockquote>
@@ -1017,7 +1017,7 @@
 <p>本文总结整理了软件开发过程中的那些实用软件与工具，主要基于Android开发，其他行业语种开发，也大部分适用，请自行参考，有了这些”神兵利器”的协助，基本上能搞定日常工作中的开发需求了。</p>
 <p>希望对不断上进的你有所帮助！</p>
 <h4 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h4><p>开局一张图，直接上脑图</p>
-<p><a href="https://s2.ax1x.com/2020/03/07/3jLIkq.png" data-fancybox="group" data-caption="Android Helper" class="fancybox"><img alt="Android Helper" title="Android Helper" data-src="https://s2.ax1x.com/2020/03/07/3jLIkq.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jLIkq.png" data-fancybox="group" data-caption="Android Helper" class="fancybox"><img alt="Android Helper" data-src="https://s2.ax1x.com/2020/03/07/3jLIkq.png" class="lazyload" title="Android Helper"></a></p>
 <a id="more"></a>
 <h4 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h4><p>开发用的操作系统选择优先级 <em>macOS>Ubuntu>Windows</em></p>
 <p>如果经济允许强烈推荐上macOS,退而求其次Ubuntu,至于是装双系统或者上虚拟机，看个人习惯了。</p>
@@ -1184,7 +1184,7 @@
 <p>本文的目标是提供适当C/C++ RoadMap（路线图)，方便知识Review，以使你成为更好的Android/C开发人员。</p>
 <p> <em>There is no better way to learn something than by doing.</em></p>
 <h2 id="Getting-started-with-the-MindMap"><a href="#Getting-started-with-the-MindMap" class="headerlink" title="Getting started with the MindMap"></a><strong>Getting started with the MindMap</strong></h2><p>开局一张图，直接上脑图</p>
-<p><a href="https://s2.ax1x.com/2020/03/07/3jOljg.png" data-fancybox="group" data-caption="jni-c-journey" class="fancybox"><img alt="jni-c-journey" title="jni-c-journey" data-src="https://s2.ax1x.com/2020/03/07/3jOljg.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jOljg.png" data-fancybox="group" data-caption="jni-c-journey" class="fancybox"><img alt="jni-c-journey" data-src="https://s2.ax1x.com/2020/03/07/3jOljg.png" class="lazyload" title="jni-c-journey"></a></p>
 <a id="more"></a>
 
 <h2 id="First-comes-a-strong-core-foundation"><a href="#First-comes-a-strong-core-foundation" class="headerlink" title="First comes  a strong core foundation"></a>First comes  a strong core foundation</h2><blockquote>
@@ -1259,7 +1259,7 @@
 <p>本文的目标是提供适当Android-JNI-NDK RoadMap（路线图)，列出常见需要注意的点，方便知识Review，以使你成为更好的Android/NDK开发人员。本文不会详情的展示如何演示脑图所展示的知识点，展开来谈，一篇的篇幅远远不够，但文章末会列出相关学习资源，给认真学习上进的你。</p>
 <p> <em>There is no better way to learn something than by doing.</em></p>
 <h2 id="Getting-started-with-the-MindMap"><a href="#Getting-started-with-the-MindMap" class="headerlink" title="Getting started with the MindMap"></a><strong>Getting started with the MindMap</strong></h2><p>开局一张图，直接上脑图</p>
-<p><a href="https://s2.ax1x.com/2020/03/07/3jOGHs.png" data-fancybox="group" data-caption="jni-c-journey" class="fancybox"><img alt="jni-c-journey" title="jni-c-journey" data-src="https://s2.ax1x.com/2020/03/07/3jOGHs.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jOGHs.png" data-fancybox="group" data-caption="jni-c-journey" class="fancybox"><img alt="jni-c-journey" data-src="https://s2.ax1x.com/2020/03/07/3jOGHs.png" class="lazyload" title="jni-c-journey"></a></p>
 <a id="more"></a>
 
 <h2 id="First-comes-a-strong-core-foundation"><a href="#First-comes-a-strong-core-foundation" class="headerlink" title="First comes  a strong core foundation"></a>First comes  a strong core foundation</h2><ul>
@@ -1468,7 +1468,7 @@
 <li><strong>架构组件–Componentization</strong> </li>
 </ul>
 </blockquote>
-<p><a href="https://s2.ax1x.com/2020/03/07/3jLXnJ.png" data-fancybox="group" data-caption="android-3rd-libs" class="fancybox"><img alt="android-3rd-libs" title="android-3rd-libs" data-src="https://s2.ax1x.com/2020/03/07/3jLXnJ.png" class="lazyload"></a></p>
+<p><a href="https://s2.ax1x.com/2020/03/07/3jLXnJ.png" data-fancybox="group" data-caption="android-3rd-libs" class="fancybox"><img alt="android-3rd-libs" data-src="https://s2.ax1x.com/2020/03/07/3jLXnJ.png" class="lazyload" title="android-3rd-libs"></a></p>
 <a id="more"></a>
 
 <h2 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h2><blockquote>

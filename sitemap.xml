@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lairdli.top/2019/05/19/Android-RoadMap/</loc>
+    <loc>https://lairdli.top/2019/06/09/Android-C-RoadMap/</loc>
     
-    <lastmod>2020-03-07T15:17:57.837Z</lastmod>
+    <lastmod>2020-03-08T02:53:09.061Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lairdli.top/2019/02/25/Android-3rd-Libs/</loc>
+    
+    <lastmod>2020-03-08T02:51:48.119Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://lairdli.top/2019/06/01/Android-NDK-RoadMap/</loc>
     
-    <lastmod>2020-03-07T15:09:12.633Z</lastmod>
+    <lastmod>2020-03-08T02:50:43.879Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lairdli.top/about/index.html</loc>
+    
+    <lastmod>2020-03-08T02:46:24.860Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lairdli.top/2019/05/19/Android-RoadMap/</loc>
+    
+    <lastmod>2020-03-07T15:17:57.837Z</lastmod>
     
   </url>
   
@@ -26,20 +47,6 @@
     <loc>https://lairdli.top/2018/05/25/Android-Book-Recomendations/</loc>
     
     <lastmod>2020-03-07T15:04:32.239Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lairdli.top/2019/06/09/Android-C-RoadMap/</loc>
-    
-    <lastmod>2020-03-07T15:01:07.900Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lairdli.top/2019/02/25/Android-3rd-Libs/</loc>
-    
-    <lastmod>2020-03-07T14:59:40.255Z</lastmod>
     
   </url>
   
@@ -61,13 +68,6 @@
     <loc>https://lairdli.top/tags/index.html</loc>
     
     <lastmod>2020-03-07T05:56:03.913Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lairdli.top/about/index.html</loc>
-    
-    <lastmod>2020-03-07T03:51:30.889Z</lastmod>
     
   </url>
   
