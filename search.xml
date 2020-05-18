@@ -266,7 +266,7 @@
 </ul>
 <p>lib向app转换时，另外一个问题就是Application逻辑的问题，当主APP包含Lib模块时，我们也希望Lib中的逻辑也能被执行，但manifest却只能配置一个application-name.配置了主App的application后，lib就不能配置了。</p>
 <p>本着尽量解耦，最少改动的原则，我们还是用面向接口编程的实现，先看如下类图，看完你就明白了。</p>
-<p><a href="https://lairdli.top/images/android-as-mul-module.png" data-fancybox="group" data-caption="AsMulModules" class="fancybox"><img alt="AsMulModules" data-src="https://lairdli.top/images/android-as-mul-module.png" class="lazyload" title="AsMulModules"></a></p>
+<p><a href="https://s1.ax1x.com/2020/05/18/YWsWtg.md.png" data-fancybox="group" data-caption="AsMulModules" class="fancybox"><img alt="AsMulModules" data-src="https://s1.ax1x.com/2020/05/18/YWsWtg.md.png" class="lazyload" title="AsMulModules"></a></p>
 <p>Main-appliaction</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">java</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight java"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MainApplication</span> <span class="keyword">extends</span> <span class="title">BaseApplication</span> <span class="keyword">implements</span> <span class="title">IAppApplication</span> </span>{</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> String[] MODULESLIST =</span><br><span class="line">            {<span class="string">"top.lairdli.study.testlibrary.LibApplication"</span>};</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List<string> <span class="title">getModuleAppClassList</span><span class="params">()</span> </string></span>{</span><br><span class="line">        <span class="keyword">return</span> Arrays.asList(MODULESLIST);</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">init</span><span class="params">(Application instance)</span> </span>{</span><br><span class="line">        Log.d(LOG_TAG, <span class="string">"---init"</span>);</span><br><span class="line">      	<span class="comment">//to do u biz</span></span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
 
@@ -342,7 +342,7 @@
 </ul>
 </body></html>]]></content>
       <categories>
-        <category>Soft</category>
+        <category>Android</category>
       </categories>
       <tags>
         <tag>Android</tag>
