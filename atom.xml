@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lairdli.top/"/>
-  <updated>2019-11-25T03:30:27.000Z</updated>
+  <updated>2020-05-17T03:30:27.000Z</updated>
   <id>https://lairdli.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android Gradle</title>
+    <link href="https://lairdli.top/2020/02/02/Android-Gradle/"/>
+    <id>https://lairdli.top/2020/02/02/Android-Gradle/</id>
+    <published>2020-02-02T08:20:27.000Z</published>
+    <updated>2020-05-17T03:30:27.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本文将简述Android-Gradle在实际项目开发过程中-打包编译过程中-所涉及到的部分知识点。&lt;br&gt;对大部分Android开发者而言，接触Gradle应该是从AndroidStudio开始，而AndroidStudio是google官方推荐的开发IDE,可见深入了解Gradle会对我们的Android软件开发产生更深远的意义。&lt;br&gt;Gradle其实是一种构建工具，能自动化的进行构建，编译，打包，签名等一系列流程。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Soft" scheme="https://lairdli.top/categories/Soft/"/>
+    
+    
+      <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
+    
+      <category term="Gradle" scheme="https://lairdli.top/tags/Gradle/"/>
+    
+  </entry>
   
   <entry>
     <title>Soft Team Management</title>
