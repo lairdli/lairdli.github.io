@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lairdli.top/"/>
-  <updated>2020-05-10T14:20:18.000Z</updated>
+  <updated>2020-06-06T06:20:18.000Z</updated>
   <id>https://lairdli.top/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Script MuiltPackage</title>
+    <link href="https://lairdli.top/2020/06/06/Script-MultiPackage/"/>
+    <id>https://lairdli.top/2020/06/06/Script-MultiPackage/</id>
+    <published>2020-06-06T06:20:18.000Z</published>
+    <updated>2020-06-06T06:20:18.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h3 id=&quot;MuiltPackage-多项目编译打包&quot;&gt;&lt;a href=&quot;#MuiltPackage-多项目编译打包&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Script" scheme="https://lairdli.top/categories/Script/"/>
+    
+    
+      <category term="Tools" scheme="https://lairdli.top/tags/Tools/"/>
+    
+      <category term="Gradle" scheme="https://lairdli.top/tags/Gradle/"/>
+    
+      <category term="Script" scheme="https://lairdli.top/tags/Script/"/>
+    
+  </entry>
   
   <entry>
     <title>Script CodeClean</title>
