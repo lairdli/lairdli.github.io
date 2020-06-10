@@ -100,9 +100,9 @@
     
       <category term="Tools" scheme="https://lairdli.top/tags/Tools/"/>
     
-      <category term="Git" scheme="https://lairdli.top/tags/Git/"/>
-    
       <category term="Script" scheme="https://lairdli.top/tags/Script/"/>
+    
+      <category term="Git" scheme="https://lairdli.top/tags/Git/"/>
     
   </entry>
   
@@ -300,9 +300,9 @@
       <category term="Git" scheme="https://lairdli.top/categories/Git/"/>
     
     
-      <category term="Vcs" scheme="https://lairdli.top/tags/Vcs/"/>
-    
       <category term="Git" scheme="https://lairdli.top/tags/Git/"/>
+    
+      <category term="Vcs" scheme="https://lairdli.top/tags/Vcs/"/>
     
   </entry>
   

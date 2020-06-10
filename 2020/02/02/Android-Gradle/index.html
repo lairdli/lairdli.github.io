@@ -134,7 +134,7 @@ function activateLightMode(){
 </blockquote>
 <h3 id="Gradle"><a href="#Gradle" class="headerlink" title="Gradle"></a>Gradle</h3><p>gradle结合Ant和Maven等构建工具的最佳特性。它有着约定优于配置的方法、强大的依赖管理，它的构建脚本使用Groovy或Kotlin 编写，是Android的官方构建工具。gradle脚本为<strong>build.gradle</strong>格式。</p>
 <h4 id="Groovy"><a href="#Groovy" class="headerlink" title="Groovy"></a>Groovy</h4><p>Groovy基于DSL(动态语言)。和Java一样，也运行于Java虚拟机中。这一特性也使得Groovy可以引用Java，但除此之外Groovy又具有脚本语言的特定。当执行Groovy脚本时，Groovy会先将其编译成Java类字节码，然后通过Jvm来执行这个Java类。相关关系模型如下图</p>
-<p><a href="https://s1.ax1x.com/2020/05/18/YWBKFH.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="groovy-jvm" class="fancybox"><img alt="groovy-jvm" data-src="https://s1.ax1x.com/2020/05/18/YWBKFH.png" class="lazyload" title="groovy-jvm"></a></p>
+<p><a href="https://s1.ax1x.com/2020/05/18/YWBKFH.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="groovy-jvm" class="fancybox"><img alt="groovy-jvm" title="groovy-jvm" data-src="https://s1.ax1x.com/2020/05/18/YWBKFH.png" class="lazyload"></a></p>
 <h4 id="Groovy-基本语言"><a href="#Groovy-基本语言" class="headerlink" title="Groovy-基本语言"></a>Groovy-基本语言</h4><p>作为动态语言，Groovy世界中的所有事物都是对象。所以，int，boolean这些Java中的基本数据类型，在Groovy代码中其实对应的是它们的包装数据类型。比如int对应为Integer，boolean对应为Boolean等。</p>
 <h4 id="Groovy-集合"><a href="#Groovy-集合" class="headerlink" title="Groovy-集合"></a>Groovy-集合</h4><ul>
 <li><p>List：链表，其底层对应Java中的List接口，一般用ArrayList作为真正的实现类。</p>
@@ -161,7 +161,7 @@ function activateLightMode(){
 </ol>
 <p>更详细的接受可以参考文末的参考文档链接。</p>
 <h2 id="Android-Gradle"><a href="#Android-Gradle" class="headerlink" title="Android-Gradle"></a>Android-Gradle</h2><p>好了有了以上相关构建的基础知识，现在让我们走进今天的主角AS-Android-Gradle<br>在学习Android-Gradle编译流程前，有必要先梳理下APP编译打包的具体流程。</p>
-<h3 id="app-build编译打包流程"><a href="#app-build编译打包流程" class="headerlink" title="app-build编译打包流程"></a>app-build编译打包流程</h3><p><a href="https://s1.ax1x.com/2020/05/18/YWBQfA.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="android-compile" class="fancybox"><img alt="android-compile" data-src="https://s1.ax1x.com/2020/05/18/YWBQfA.png" class="lazyload" title="android-compile"></a></p>
+<h3 id="app-build编译打包流程"><a href="#app-build编译打包流程" class="headerlink" title="app-build编译打包流程"></a>app-build编译打包流程</h3><p><a href="https://s1.ax1x.com/2020/05/18/YWBQfA.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="android-compile" class="fancybox"><img alt="android-compile" title="android-compile" data-src="https://s1.ax1x.com/2020/05/18/YWBQfA.png" class="lazyload"></a></p>
 <p>APK构建过程如上图总结如下：</p>
 <blockquote>
 <ol>
@@ -174,7 +174,7 @@ function activateLightMode(){
 <li>如果是对APK正式签名，还需要使用zipalign工具对APK进行对齐操作，这样应用运行时会减少内存的开销。</li>
 </ol>
 </blockquote>
-<h3 id="gradle打包流程"><a href="#gradle打包流程" class="headerlink" title="gradle打包流程"></a>gradle打包流程</h3><p><a href="https://s1.ax1x.com/2020/05/18/YWBYm8.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" data-src="https://s1.ax1x.com/2020/05/18/YWBYm8.png" class="lazyload" title="img"></a></p>
+<h3 id="gradle打包流程"><a href="#gradle打包流程" class="headerlink" title="gradle打包流程"></a>gradle打包流程</h3><p><a href="https://s1.ax1x.com/2020/05/18/YWBYm8.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="https://s1.ax1x.com/2020/05/18/YWBYm8.png" class="lazyload"></a></p>
 <blockquote>
 <ol>
 <li>首先是初始化阶段。执行as项目根目录下的settings.gradle</li>
@@ -339,7 +339,7 @@ function activateLightMode(){
 </ul>
 <p>lib向app转换时，另外一个问题就是Application逻辑的问题，当主APP包含Lib模块时，我们也希望Lib中的逻辑也能被执行，但manifest却只能配置一个application-name.配置了主App的application后，lib就不能配置了。</p>
 <p>本着尽量解耦，最少改动的原则，我们还是用面向接口编程的实现，先看如下类图，看完你就明白了。</p>
-<p><a href="https://s1.ax1x.com/2020/05/18/YWsWtg.md.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="AsMulModules" class="fancybox"><img alt="AsMulModules" data-src="https://s1.ax1x.com/2020/05/18/YWsWtg.md.png" class="lazyload" title="AsMulModules"></a></p>
+<p><a href="https://s1.ax1x.com/2020/05/18/YWsWtg.md.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="AsMulModules" class="fancybox"><img alt="AsMulModules" title="AsMulModules" data-src="https://s1.ax1x.com/2020/05/18/YWsWtg.md.png" class="lazyload"></a></p>
 <p>Main-appliaction</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">java</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MainApplication</span> <span class="keyword">extends</span> <span class="title">BaseApplication</span> <span class="keyword">implements</span> <span class="title">IAppApplication</span> </span>{</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> String[] MODULESLIST =</span><br><span class="line">            {<span class="string">"top.lairdli.study.testlibrary.LibApplication"</span>};</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List<string> <span class="title">getModuleAppClassList</span><span class="params">()</span> </string></span>{</span><br><span class="line">        <span class="keyword">return</span> Arrays.asList(MODULESLIST);</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">init</span><span class="params">(Application instance)</span> </span>{</span><br><span class="line">        Log.d(LOG_TAG, <span class="string">"---init"</span>);</span><br><span class="line">      	<span class="comment">//to do u biz</span></span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
 
