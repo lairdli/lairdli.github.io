@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lairdli.top/"/>
-  <updated>2020-06-06T06:20:18.000Z</updated>
+  <updated>2020-06-29T04:00:00.000Z</updated>
   <id>https://lairdli.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IPTV Player OS</title>
+    <link href="https://lairdli.top/2020/06/29/Soft-IPTV-Player-OS/"/>
+    <id>https://lairdli.top/2020/06/29/Soft-IPTV-Player-OS/</id>
+    <published>2020-06-29T04:00:00.000Z</published>
+    <updated>2020-06-29T04:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;IPTV播放器OS源测试环境搭建&quot;&gt;&lt;a href=&quot;#IPTV播放器OS源测试环境搭建&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Tv" scheme="https://lairdli.top/categories/Tv/"/>
+    
+    
+      <category term="Tv" scheme="https://lairdli.top/tags/Tv/"/>
+    
+      <category term="Test" scheme="https://lairdli.top/tags/Test/"/>
+    
+  </entry>
   
   <entry>
     <title>Script MuiltPackage</title>
@@ -535,38 +563,6 @@
     
     
       <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android Book Recomendations</title>
-    <link href="https://lairdli.top/2018/05/25/Android-Book-Recomendations/"/>
-    <id>https://lairdli.top/2018/05/25/Android-Book-Recomendations/</id>
-    <published>2018-05-25T09:57:40.000Z</published>
-    <updated>2020-03-07T15:04:32.239Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;程序设计&quot;&gt;&lt;a href=&quot;#程序设计&quot; class=&quot;headerlink&quot; title=&quot;程序设计&quot;&gt;&lt;/a&gt;程序设计&lt;/h1&gt;&lt;h2 id=&quot;java&quot;&gt;&lt;a href=&quot;#java&quot; class=&quot;headerlink&quot; title=&quot;java&quot;&gt;&lt;/a&gt;java&lt;/h2&gt;&lt;h3 id=&quot;基本语法-如继承、异常、引用、泛型等&quot;&gt;&lt;a href=&quot;#基本语法-如继承、异常、引用、泛型等&quot; class=&quot;headerlink&quot; title=&quot;基本语法(如继承、异常、引用、泛型等)&quot;&gt;&lt;/a&gt;基本语法(如继承、异常、引用、泛型等)&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/25762168/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Java核心技术 卷I&lt;/a&gt;（适合入门）&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://book.douban.com/subject/5362860&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Java解惑&lt;/a&gt; （介绍Java代码是什么样的）&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/3360807/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Effective Java中文版&lt;/a&gt;（如何写好的Java代码）&lt;/p&gt;
-&lt;h3 id=&quot;多线程、并发&quot;&gt;&lt;a href=&quot;#多线程、并发&quot; class=&quot;headerlink&quot; title=&quot;多线程、并发&quot;&gt;&lt;/a&gt;多线程、并发&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/10484692/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Java并发编程实战&lt;/a&gt; （系统全面的介绍了Java的并发，如何设计支持并发的数据结构）&lt;/p&gt;
-&lt;h3 id=&quot;Java-7&quot;&gt;&lt;a href=&quot;#Java-7&quot; class=&quot;headerlink&quot; title=&quot;Java 7&quot;&gt;&lt;/a&gt;Java 7&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/24841235/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Java程序员修炼之道&lt;/a&gt; （详细的介绍Java 7 的新特性）&lt;/p&gt;
-&lt;h3 id=&quot;Java-8&quot;&gt;&lt;a href=&quot;#Java-8&quot; class=&quot;headerlink&quot; title=&quot;Java 8&quot;&gt;&lt;/a&gt;Java 8&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/26274206/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;写给大忙人看的Java SE 8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/26587213/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;函数式编程思维&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Java虚拟机&quot;&gt;&lt;a href=&quot;#Java虚拟机&quot; class=&quot;headerlink&quot; title=&quot;Java虚拟机&quot;&gt;&lt;/a&gt;Java虚拟机&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/24722612/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;深入理解Java虚拟机&lt;/a&gt; （并不是那么难，Java程序员都该看看）&lt;/p&gt;
-&lt;h3 id=&quot;性能优化&quot;&gt;&lt;a href=&quot;#性能优化&quot; class=&quot;headerlink&quot; title=&quot;性能优化&quot;&gt;&lt;/a&gt;性能优化&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/25828043/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Java性能优化权威指南&lt;/a&gt; （后面的章节好像用处不大，前面有些部分还是值得看）&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://union.click.jd.com/jdc?d=VUed84&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《Thinking in java》&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://union.click.jd.com/jdc?d=qj7efm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《Effective Java》&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="https://lairdli.top/categories/Android/"/>
-    
-    
-      <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
-    
-      <category term="Book" scheme="https://lairdli.top/tags/Book/"/>
     
   </entry>
   
