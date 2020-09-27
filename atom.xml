@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lairdli.top/"/>
-  <updated>2020-06-29T04:00:00.000Z</updated>
+  <updated>2020-09-26T14:22:18.000Z</updated>
   <id>https://lairdli.top/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CodeLabs Env Setup</title>
+    <link href="https://lairdli.top/2020/09/26/CodeLabs-Env-Setup/"/>
+    <id>https://lairdli.top/2020/09/26/CodeLabs-Env-Setup/</id>
+    <published>2020-09-26T14:20:18.000Z</published>
+    <updated>2020-09-26T14:22:18.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Codelabs环境搭建&quot;&gt;&lt;a href=&quot;#Codelabs环境搭建&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="CodeLabs" scheme="https://lairdli.top/categories/CodeLabs/"/>
+    
+    
+      <category term="Tools" scheme="https://lairdli.top/tags/Tools/"/>
+    
+      <category term="Code" scheme="https://lairdli.top/tags/Code/"/>
+    
+      <category term="Soft" scheme="https://lairdli.top/tags/Soft/"/>
+    
+  </entry>
   
   <entry>
     <title>IPTV Player OS</title>
@@ -543,26 +573,6 @@
       <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
     
       <category term="Libs" scheme="https://lairdli.top/tags/Libs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android Journey</title>
-    <link href="https://lairdli.top/2019/01/30/Android-Journey/"/>
-    <id>https://lairdli.top/2019/01/30/Android-Journey/</id>
-    <published>2019-01-30T04:00:00.000Z</published>
-    <updated>2020-03-07T15:08:34.205Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Android-Journey&quot;&gt;&lt;a href=&quot;#Android-Journey&quot; class=&quot;headerlink&quot; title=&quot;Android Journey&quot;&gt;&lt;/a&gt;Android Journey&lt;/h1&gt;&lt;p&gt;  新的2019年，新的开始，做一个Android相关知识整理，资源聚合。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="https://lairdli.top/categories/Android/"/>
-    
-    
-      <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
     
   </entry>
   
