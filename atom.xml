@@ -17,7 +17,7 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>CodeLabs Env Setup</title>
+    <title>部门协作-谷歌代码实验室CodeLabs环境搭建</title>
     <link href="https://lairdli.top/2020/09/26/CodeLabs-Env-Setup/"/>
     <id>https://lairdli.top/2020/09/26/CodeLabs-Env-Setup/</id>
     <published>2020-09-26T14:20:18.000Z</published>
@@ -47,7 +47,7 @@
   </entry>
   
   <entry>
-    <title>IPTV Player OS</title>
+    <title>部门协作-终端播放器测试源环境搭建</title>
     <link href="https://lairdli.top/2020/06/29/Soft-IPTV-Player-OS/"/>
     <id>https://lairdli.top/2020/06/29/Soft-IPTV-Player-OS/</id>
     <published>2020-06-29T04:00:00.000Z</published>
@@ -75,7 +75,7 @@
   </entry>
   
   <entry>
-    <title>Script MuiltPackage</title>
+    <title>脚本工具-Android多项目批量编译打包脚本</title>
     <link href="https://lairdli.top/2020/06/06/Script-MultiPackage/"/>
     <id>https://lairdli.top/2020/06/06/Script-MultiPackage/</id>
     <published>2020-06-06T06:20:18.000Z</published>
@@ -105,7 +105,7 @@
   </entry>
   
   <entry>
-    <title>Script CodeClean</title>
+    <title>脚本工具-CodeClean磁盘代码清理脚本</title>
     <link href="https://lairdli.top/2020/05/10/Script-CodeClean/"/>
     <id>https://lairdli.top/2020/05/10/Script-CodeClean/</id>
     <published>2020-05-10T14:20:18.000Z</published>
@@ -135,7 +135,7 @@
   </entry>
   
   <entry>
-    <title>Script Svn2Git</title>
+    <title>脚本工具-仓储迁移svn转git脚本</title>
     <link href="https://lairdli.top/2020/04/25/Script-Svn2Git/"/>
     <id>https://lairdli.top/2020/04/25/Script-Svn2Git/</id>
     <published>2020-04-25T04:20:18.000Z</published>
@@ -165,7 +165,7 @@
   </entry>
   
   <entry>
-    <title>Android Gradle</title>
+    <title>Android开发-Gradle打包流程及自定义构建梳理</title>
     <link href="https://lairdli.top/2020/02/02/Android-Gradle/"/>
     <id>https://lairdli.top/2020/02/02/Android-Gradle/</id>
     <published>2020-02-02T08:20:27.000Z</published>
@@ -187,7 +187,7 @@
   </entry>
   
   <entry>
-    <title>Soft Team Management</title>
+    <title>部门协作-团队组建与管理</title>
     <link href="https://lairdli.top/2019/11/24/Soft-Team-Manager/"/>
     <id>https://lairdli.top/2019/11/24/Soft-Team-Manager/</id>
     <published>2019-11-24T08:20:27.000Z</published>
@@ -210,7 +210,7 @@
   </entry>
   
   <entry>
-    <title>Soft Project Management</title>
+    <title>部门协作-软件开发项目流程</title>
     <link href="https://lairdli.top/2019/09/22/Soft-Project-Manager/"/>
     <id>https://lairdli.top/2019/09/22/Soft-Project-Manager/</id>
     <published>2019-09-22T08:20:27.000Z</published>
@@ -242,7 +242,7 @@
   </entry>
   
   <entry>
-    <title>Android Command</title>
+    <title>Android开发-常用Linux命令行工具梳理</title>
     <link href="https://lairdli.top/2019/08/13/Android-Command/"/>
     <id>https://lairdli.top/2019/08/13/Android-Command/</id>
     <published>2019-08-13T13:22:52.000Z</published>
@@ -264,7 +264,7 @@
   </entry>
   
   <entry>
-    <title>Win Friends</title>
+    <title>读书笔记-人性的弱点,如何交盆友</title>
     <link href="https://lairdli.top/2019/08/11/Win-Friends/"/>
     <id>https://lairdli.top/2019/08/11/Win-Friends/</id>
     <published>2019-08-11T11:45:27.000Z</published>
@@ -288,7 +288,7 @@
   </entry>
   
   <entry>
-    <title>Time Manager</title>
+    <title>读书笔记-时间管理大师</title>
     <link href="https://lairdli.top/2019/08/05/Time-Manager/"/>
     <id>https://lairdli.top/2019/08/05/Time-Manager/</id>
     <published>2019-08-05T13:58:27.000Z</published>
@@ -314,7 +314,7 @@
   </entry>
   
   <entry>
-    <title>Android Tv</title>
+    <title>Android开发-TV电视/机顶盒相关技术点梳理</title>
     <link href="https://lairdli.top/2019/07/09/Android-Tv/"/>
     <id>https://lairdli.top/2019/07/09/Android-Tv/</id>
     <published>2019-07-09T14:20:18.000Z</published>
@@ -340,7 +340,7 @@
   </entry>
   
   <entry>
-    <title>Vcs Git</title>
+    <title>部门协作-版本管理工具Git要点梳理</title>
     <link href="https://lairdli.top/2019/07/09/Vcs-Git/"/>
     <id>https://lairdli.top/2019/07/09/Vcs-Git/</id>
     <published>2019-07-09T13:58:27.000Z</published>
@@ -365,7 +365,7 @@
   </entry>
   
   <entry>
-    <title>Android Material Design</title>
+    <title>Android开发-Material Design技术点</title>
     <link href="https://lairdli.top/2019/06/29/Android-Material-Design/"/>
     <id>https://lairdli.top/2019/06/29/Android-Material-Design/</id>
     <published>2019-06-29T12:26:08.000Z</published>
@@ -389,7 +389,7 @@
   </entry>
   
   <entry>
-    <title>Android Release</title>
+    <title>Android开发-版本进化以及差异梳理</title>
     <link href="https://lairdli.top/2019/06/24/Android-Release/"/>
     <id>https://lairdli.top/2019/06/24/Android-Release/</id>
     <published>2019-06-24T12:37:13.000Z</published>
@@ -412,7 +412,7 @@
   </entry>
   
   <entry>
-    <title>Android Helper</title>
+    <title>Android开发-常用工具软件梳理</title>
     <link href="https://lairdli.top/2019/06/18/Android-Helper/"/>
     <id>https://lairdli.top/2019/06/18/Android-Helper/</id>
     <published>2019-06-18T09:47:07.000Z</published>
@@ -438,11 +438,11 @@
   </entry>
   
   <entry>
-    <title>Android C Journey</title>
+    <title>Android开发-C语言技术路线梳理</title>
     <link href="https://lairdli.top/2019/06/09/Android-C-RoadMap/"/>
     <id>https://lairdli.top/2019/06/09/Android-C-RoadMap/</id>
     <published>2019-06-09T04:00:00.000Z</published>
-    <updated>2020-03-08T02:53:09.061Z</updated>
+    <updated>2021-04-13T07:29:50.784Z</updated>
     
     <summary type="html">
     
@@ -471,11 +471,11 @@
   </entry>
   
   <entry>
-    <title>Android NDK RoadMap</title>
+    <title>Android开发-JNI/NDK知识点梳理</title>
     <link href="https://lairdli.top/2019/06/01/Android-NDK-RoadMap/"/>
     <id>https://lairdli.top/2019/06/01/Android-NDK-RoadMap/</id>
     <published>2019-06-01T04:00:00.000Z</published>
-    <updated>2020-03-08T02:50:43.879Z</updated>
+    <updated>2021-04-13T07:33:16.744Z</updated>
     
     <summary type="html">
     
@@ -503,11 +503,11 @@
   </entry>
   
   <entry>
-    <title>Android RoadMap</title>
+    <title>Android开发-技术路线图</title>
     <link href="https://lairdli.top/2019/05/19/Android-RoadMap/"/>
     <id>https://lairdli.top/2019/05/19/Android-RoadMap/</id>
     <published>2019-05-19T04:00:00.000Z</published>
-    <updated>2020-03-07T15:17:57.837Z</updated>
+    <updated>2021-04-13T07:34:55.557Z</updated>
     
     <summary type="html">
     
@@ -536,11 +536,11 @@
   </entry>
   
   <entry>
-    <title>Android 3rd Libs</title>
+    <title>Android开发-常用第三方开源框架梳理</title>
     <link href="https://lairdli.top/2019/02/25/Android-3rd-Libs/"/>
     <id>https://lairdli.top/2019/02/25/Android-3rd-Libs/</id>
     <published>2019-02-25T02:00:00.000Z</published>
-    <updated>2020-03-08T02:51:48.119Z</updated>
+    <updated>2021-04-13T07:28:46.502Z</updated>
     
     <summary type="html">
     
@@ -572,7 +572,7 @@
     
       <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
     
-      <category term="Libs" scheme="https://lairdli.top/tags/Libs/"/>
+      <category term="开源框架" scheme="https://lairdli.top/tags/%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
