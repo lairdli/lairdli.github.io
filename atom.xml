@@ -17,7 +17,7 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Android开发-logcat常用命令行汇总</title>
+    <title>「Android Logcat」Android开发-Logcat常用命令行汇总</title>
     <link href="https://lairdli.top/2021/07/13/Android-Logcat/"/>
     <id>https://lairdli.top/2021/07/13/Android-Logcat/</id>
     <published>2021-07-13T08:20:27.000Z</published>
@@ -40,12 +40,12 @@
     
       <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
     
-      <category term="Tools" scheme="https://lairdli.top/tags/Tools/"/>
+      <category term="Logcat" scheme="https://lairdli.top/tags/Logcat/"/>
     
   </entry>
   
   <entry>
-    <title>部门协作-谷歌代码实验室CodeLabs环境搭建</title>
+    <title>「文档服务」 (三) 本地代码实验室Codelabs环境搭建与使用</title>
     <link href="https://lairdli.top/2020/09/26/CodeLabs-Env-Setup/"/>
     <id>https://lairdli.top/2020/09/26/CodeLabs-Env-Setup/</id>
     <published>2020-09-26T14:20:18.000Z</published>
@@ -63,19 +63,17 @@
     
     </summary>
     
-      <category term="CodeLabs" scheme="https://lairdli.top/categories/CodeLabs/"/>
+      <category term="协作" scheme="https://lairdli.top/categories/%E5%8D%8F%E4%BD%9C/"/>
     
     
-      <category term="Tools" scheme="https://lairdli.top/tags/Tools/"/>
+      <category term="文档服务" scheme="https://lairdli.top/tags/%E6%96%87%E6%A1%A3%E6%9C%8D%E5%8A%A1/"/>
     
-      <category term="Code" scheme="https://lairdli.top/tags/Code/"/>
-    
-      <category term="Soft" scheme="https://lairdli.top/tags/Soft/"/>
+      <category term="Codelabs" scheme="https://lairdli.top/tags/Codelabs/"/>
     
   </entry>
   
   <entry>
-    <title>部门协作-终端播放器测试源环境搭建</title>
+    <title>「模拟环境」 (二) 播放模拟-PlayOS环境搭建与使用</title>
     <link href="https://lairdli.top/2020/06/29/Soft-IPTV-Player-OS/"/>
     <id>https://lairdli.top/2020/06/29/Soft-IPTV-Player-OS/</id>
     <published>2020-06-29T04:00:00.000Z</published>
@@ -93,17 +91,17 @@
     
     </summary>
     
-      <category term="Tv" scheme="https://lairdli.top/categories/Tv/"/>
+      <category term="协作" scheme="https://lairdli.top/categories/%E5%8D%8F%E4%BD%9C/"/>
     
     
-      <category term="Tv" scheme="https://lairdli.top/tags/Tv/"/>
+      <category term="模拟环境" scheme="https://lairdli.top/tags/%E6%A8%A1%E6%8B%9F%E7%8E%AF%E5%A2%83/"/>
     
-      <category term="Test" scheme="https://lairdli.top/tags/Test/"/>
+      <category term="Player" scheme="https://lairdli.top/tags/Player/"/>
     
   </entry>
   
   <entry>
-    <title>脚本工具-Android多项目批量编译打包脚本</title>
+    <title>「工具脚本」(一)  版本打包-AutoPackage多项目打包脚本说明</title>
     <link href="https://lairdli.top/2020/06/06/Script-MultiPackage/"/>
     <id>https://lairdli.top/2020/06/06/Script-MultiPackage/</id>
     <published>2020-06-06T06:20:18.000Z</published>
@@ -121,19 +119,17 @@
     
     </summary>
     
-      <category term="Script" scheme="https://lairdli.top/categories/Script/"/>
+      <category term="协作" scheme="https://lairdli.top/categories/%E5%8D%8F%E4%BD%9C/"/>
     
     
-      <category term="Gradle" scheme="https://lairdli.top/tags/Gradle/"/>
+      <category term="工具脚本" scheme="https://lairdli.top/tags/%E5%B7%A5%E5%85%B7%E8%84%9A%E6%9C%AC/"/>
     
-      <category term="Tools" scheme="https://lairdli.top/tags/Tools/"/>
-    
-      <category term="Script" scheme="https://lairdli.top/tags/Script/"/>
+      <category term="AutoPackage" scheme="https://lairdli.top/tags/AutoPackage/"/>
     
   </entry>
   
   <entry>
-    <title>脚本工具-CodeClean磁盘代码清理脚本</title>
+    <title>「工具脚本」(三) 版本请求-CleanUpCode清理脚本说明</title>
     <link href="https://lairdli.top/2020/05/10/Script-CodeClean/"/>
     <id>https://lairdli.top/2020/05/10/Script-CodeClean/</id>
     <published>2020-05-10T14:20:18.000Z</published>
@@ -151,19 +147,17 @@
     
     </summary>
     
-      <category term="Script" scheme="https://lairdli.top/categories/Script/"/>
+      <category term="协作" scheme="https://lairdli.top/categories/%E5%8D%8F%E4%BD%9C/"/>
     
     
-      <category term="Tools" scheme="https://lairdli.top/tags/Tools/"/>
+      <category term="工具脚本" scheme="https://lairdli.top/tags/%E5%B7%A5%E5%85%B7%E8%84%9A%E6%9C%AC/"/>
     
-      <category term="Code" scheme="https://lairdli.top/tags/Code/"/>
-    
-      <category term="Script" scheme="https://lairdli.top/tags/Script/"/>
+      <category term="CleanUpCode" scheme="https://lairdli.top/tags/CleanUpCode/"/>
     
   </entry>
   
   <entry>
-    <title>脚本工具-仓储迁移svn转git脚本</title>
+    <title>「工具脚本」(四) 版本迁移-Svn2Git迁移脚本说明</title>
     <link href="https://lairdli.top/2020/04/25/Script-Svn2Git/"/>
     <id>https://lairdli.top/2020/04/25/Script-Svn2Git/</id>
     <published>2020-04-25T04:20:18.000Z</published>
@@ -181,19 +175,17 @@
     
     </summary>
     
-      <category term="Script" scheme="https://lairdli.top/categories/Script/"/>
+      <category term="协作" scheme="https://lairdli.top/categories/%E5%8D%8F%E4%BD%9C/"/>
     
     
-      <category term="Tools" scheme="https://lairdli.top/tags/Tools/"/>
+      <category term="工具脚本" scheme="https://lairdli.top/tags/%E5%B7%A5%E5%85%B7%E8%84%9A%E6%9C%AC/"/>
     
-      <category term="Script" scheme="https://lairdli.top/tags/Script/"/>
-    
-      <category term="Git" scheme="https://lairdli.top/tags/Git/"/>
+      <category term="Svn2Git" scheme="https://lairdli.top/tags/Svn2Git/"/>
     
   </entry>
   
   <entry>
-    <title>Android开发-Gradle打包流程及自定义构建梳理</title>
+    <title>「Android Gradle」Gradle打包流程及自定义构建梳理</title>
     <link href="https://lairdli.top/2020/02/02/Android-Gradle/"/>
     <id>https://lairdli.top/2020/02/02/Android-Gradle/</id>
     <published>2020-02-02T08:20:27.000Z</published>
@@ -215,7 +207,7 @@
   </entry>
   
   <entry>
-    <title>部门协作-团队组建与管理</title>
+    <title>「部门」团队组建与管理</title>
     <link href="https://lairdli.top/2019/11/24/Soft-Team-Manager/"/>
     <id>https://lairdli.top/2019/11/24/Soft-Team-Manager/</id>
     <published>2019-11-24T08:20:27.000Z</published>
@@ -228,17 +220,15 @@
     
     </summary>
     
-      <category term="Soft" scheme="https://lairdli.top/categories/Soft/"/>
+      <category term="协作" scheme="https://lairdli.top/categories/%E5%8D%8F%E4%BD%9C/"/>
     
     
-      <category term="Soft" scheme="https://lairdli.top/tags/Soft/"/>
-    
-      <category term="Team" scheme="https://lairdli.top/tags/Team/"/>
+      <category term="部门" scheme="https://lairdli.top/tags/%E9%83%A8%E9%97%A8/"/>
     
   </entry>
   
   <entry>
-    <title>部门协作-软件开发项目流程</title>
+    <title>「项目」软件开发项目流程</title>
     <link href="https://lairdli.top/2019/09/22/Soft-Project-Manager/"/>
     <id>https://lairdli.top/2019/09/22/Soft-Project-Manager/</id>
     <published>2019-09-22T08:20:27.000Z</published>
@@ -260,17 +250,15 @@
     
     </summary>
     
-      <category term="Soft" scheme="https://lairdli.top/categories/Soft/"/>
+      <category term="协作" scheme="https://lairdli.top/categories/%E5%8D%8F%E4%BD%9C/"/>
     
     
-      <category term="Soft" scheme="https://lairdli.top/tags/Soft/"/>
-    
-      <category term="Project" scheme="https://lairdli.top/tags/Project/"/>
+      <category term="项目" scheme="https://lairdli.top/tags/%E9%A1%B9%E7%9B%AE/"/>
     
   </entry>
   
   <entry>
-    <title>Android开发-常用Linux命令行工具梳理</title>
+    <title>「Android Command」Android开发-常用Linux命令行汇总</title>
     <link href="https://lairdli.top/2019/08/13/Android-Command/"/>
     <id>https://lairdli.top/2019/08/13/Android-Command/</id>
     <published>2019-08-13T13:22:52.000Z</published>
@@ -287,12 +275,14 @@
     
       <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
     
+      <category term="调试" scheme="https://lairdli.top/tags/%E8%B0%83%E8%AF%95/"/>
+    
       <category term="Command" scheme="https://lairdli.top/tags/Command/"/>
     
   </entry>
   
   <entry>
-    <title>读书笔记-人性的弱点,如何交盆友</title>
+    <title>「读书笔记」人性的弱点,如何交盆友</title>
     <link href="https://lairdli.top/2019/08/11/Win-Friends/"/>
     <id>https://lairdli.top/2019/08/11/Win-Friends/</id>
     <published>2019-08-11T11:45:27.000Z</published>
@@ -306,17 +296,17 @@
     
     </summary>
     
-      <category term="Life" scheme="https://lairdli.top/categories/Life/"/>
+      <category term="读书" scheme="https://lairdli.top/categories/%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="Life" scheme="https://lairdli.top/tags/Life/"/>
+      <category term="读书笔记" scheme="https://lairdli.top/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
       <category term="Friends" scheme="https://lairdli.top/tags/Friends/"/>
     
   </entry>
   
   <entry>
-    <title>读书笔记-时间管理大师</title>
+    <title>「读书笔记」时间管理大师</title>
     <link href="https://lairdli.top/2019/08/05/Time-Manager/"/>
     <id>https://lairdli.top/2019/08/05/Time-Manager/</id>
     <published>2019-08-05T13:58:27.000Z</published>
@@ -332,17 +322,17 @@
     
     </summary>
     
-      <category term="Life" scheme="https://lairdli.top/categories/Life/"/>
+      <category term="读书" scheme="https://lairdli.top/categories/%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="Life" scheme="https://lairdli.top/tags/Life/"/>
+      <category term="读书笔记" scheme="https://lairdli.top/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
       <category term="Time" scheme="https://lairdli.top/tags/Time/"/>
     
   </entry>
   
   <entry>
-    <title>Android开发-TV电视/机顶盒相关技术点梳理</title>
+    <title>「Android TV」TV电视/机顶盒相关技术点梳理</title>
     <link href="https://lairdli.top/2019/07/09/Android-Tv/"/>
     <id>https://lairdli.top/2019/07/09/Android-Tv/</id>
     <published>2019-07-09T14:20:18.000Z</published>
@@ -356,19 +346,19 @@
     
     </summary>
     
-      <category term="Tv" scheme="https://lairdli.top/categories/Tv/"/>
+      <category term="Android" scheme="https://lairdli.top/categories/Android/"/>
     
     
       <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
     
-      <category term="Tv" scheme="https://lairdli.top/tags/Tv/"/>
+      <category term="TV" scheme="https://lairdli.top/tags/TV/"/>
     
-      <category term="Tvos" scheme="https://lairdli.top/tags/Tvos/"/>
+      <category term="TVOS" scheme="https://lairdli.top/tags/TVOS/"/>
     
   </entry>
   
   <entry>
-    <title>部门协作-版本管理工具Git要点梳理</title>
+    <title>「版本管理」 (七)  版本管理工具Git使用要点梳理</title>
     <link href="https://lairdli.top/2019/07/09/Vcs-Git/"/>
     <id>https://lairdli.top/2019/07/09/Vcs-Git/</id>
     <published>2019-07-09T13:58:27.000Z</published>
@@ -383,17 +373,17 @@
     
     </summary>
     
-      <category term="Git" scheme="https://lairdli.top/categories/Git/"/>
+      <category term="协作" scheme="https://lairdli.top/categories/%E5%8D%8F%E4%BD%9C/"/>
     
+    
+      <category term="版本管理" scheme="https://lairdli.top/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
     
       <category term="Git" scheme="https://lairdli.top/tags/Git/"/>
-    
-      <category term="Vcs" scheme="https://lairdli.top/tags/Vcs/"/>
     
   </entry>
   
   <entry>
-    <title>Android开发-Material Design技术点</title>
+    <title>「Android基础」Android Material Design</title>
     <link href="https://lairdli.top/2019/06/29/Android-Material-Design/"/>
     <id>https://lairdli.top/2019/06/29/Android-Material-Design/</id>
     <published>2019-06-29T12:26:08.000Z</published>
@@ -417,7 +407,7 @@
   </entry>
   
   <entry>
-    <title>Android开发-版本进化以及差异梳理</title>
+    <title>「Android基础」版本进化以及差异梳理</title>
     <link href="https://lairdli.top/2019/06/24/Android-Release/"/>
     <id>https://lairdli.top/2019/06/24/Android-Release/</id>
     <published>2019-06-24T12:37:13.000Z</published>
@@ -435,12 +425,12 @@
     
       <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
     
-      <category term="Adapter" scheme="https://lairdli.top/tags/Adapter/"/>
+      <category term="Release" scheme="https://lairdli.top/tags/Release/"/>
     
   </entry>
   
   <entry>
-    <title>Android开发-常用工具软件梳理</title>
+    <title>「Android Tools」  Android开发-常用工具软件梳理</title>
     <link href="https://lairdli.top/2019/06/18/Android-Helper/"/>
     <id>https://lairdli.top/2019/06/18/Android-Helper/</id>
     <published>2019-06-18T09:47:07.000Z</published>
@@ -466,11 +456,11 @@
   </entry>
   
   <entry>
-    <title>Android开发-C语言技术路线梳理</title>
+    <title>「C/C++图谱」 C/C++开发技术路线图谱梳理</title>
     <link href="https://lairdli.top/2019/06/09/Android-C-RoadMap/"/>
     <id>https://lairdli.top/2019/06/09/Android-C-RoadMap/</id>
     <published>2019-06-09T04:00:00.000Z</published>
-    <updated>2021-04-13T07:29:50.784Z</updated>
+    <updated>2022-04-09T00:05:43.606Z</updated>
     
     <summary type="html">
     
@@ -489,21 +479,23 @@
     
     </summary>
     
-      <category term="C" scheme="https://lairdli.top/categories/C/"/>
+      <category term="路线图" scheme="https://lairdli.top/categories/%E8%B7%AF%E7%BA%BF%E5%9B%BE/"/>
     
     
-      <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
+      <category term="路线图" scheme="https://lairdli.top/tags/%E8%B7%AF%E7%BA%BF%E5%9B%BE/"/>
     
       <category term="C" scheme="https://lairdli.top/tags/C/"/>
+    
+      <category term="C++" scheme="https://lairdli.top/tags/C/"/>
     
   </entry>
   
   <entry>
-    <title>Android开发-JNI/NDK知识点梳理</title>
+    <title>「JNI/NDK图谱」JNI/NDK开发技术路线图谱梳理</title>
     <link href="https://lairdli.top/2019/06/01/Android-NDK-RoadMap/"/>
     <id>https://lairdli.top/2019/06/01/Android-NDK-RoadMap/</id>
     <published>2019-06-01T04:00:00.000Z</published>
-    <updated>2021-04-13T07:33:16.744Z</updated>
+    <updated>2022-04-09T00:37:06.969Z</updated>
     
     <summary type="html">
     
@@ -521,21 +513,21 @@
     
     </summary>
     
-      <category term="Android" scheme="https://lairdli.top/categories/Android/"/>
+      <category term="路线图" scheme="https://lairdli.top/categories/%E8%B7%AF%E7%BA%BF%E5%9B%BE/"/>
     
-    
-      <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
     
       <category term="Jni" scheme="https://lairdli.top/tags/Jni/"/>
+    
+      <category term="NDK" scheme="https://lairdli.top/tags/NDK/"/>
     
   </entry>
   
   <entry>
-    <title>Android开发-技术路线图</title>
+    <title>「Android图谱」（二）Android开发技术路线图（翻译）</title>
     <link href="https://lairdli.top/2019/05/19/Android-RoadMap/"/>
     <id>https://lairdli.top/2019/05/19/Android-RoadMap/</id>
     <published>2019-05-19T04:00:00.000Z</published>
-    <updated>2021-04-13T07:34:55.557Z</updated>
+    <updated>2022-04-09T00:37:53.298Z</updated>
     
     <summary type="html">
     
@@ -554,12 +546,12 @@
     
     </summary>
     
-      <category term="Android" scheme="https://lairdli.top/categories/Android/"/>
+      <category term="路线图" scheme="https://lairdli.top/categories/%E8%B7%AF%E7%BA%BF%E5%9B%BE/"/>
     
     
       <category term="Android" scheme="https://lairdli.top/tags/Android/"/>
     
-      <category term="Translation" scheme="https://lairdli.top/tags/Translation/"/>
+      <category term="翻译" scheme="https://lairdli.top/tags/%E7%BF%BB%E8%AF%91/"/>
     
   </entry>
   

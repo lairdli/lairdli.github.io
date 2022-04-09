@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Android开发-logcat常用命令行汇总</title>
+    <title>「Android Logcat」Android开发-Logcat常用命令行汇总</title>
     <url>/2021/07/13/Android-Logcat/</url>
     <content><![CDATA[<html><head></head><body><h1 id="Android-logcat-常用命令行汇总"><a href="#Android-logcat-常用命令行汇总" class="headerlink" title="Android- logcat  常用命令行汇总"></a>Android- logcat  常用命令行汇总</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Logcat 是一个命令行工具，用于转储系统消息日志，包括设备抛出错误时的堆栈轨迹，以及从您的应用使用 <code>Log</code> 类写入的消息。</p>
 <p>本质上也是个 c/s　构架。应用作为客户端往服务端 logd 写数据，　logd 作为服务端收到数据后会把数据写到 LogBuf 中。logcat 作为另外一个客户端，从 LogBuf 中读取数据。这个其实也是个生产者/消费者模型。应用可以看作生产者，logcat 可以看作是消费者，logd 可以看作是消息队列。</p>
@@ -48,11 +48,11 @@
       </categories>
       <tags>
         <tag>Android</tag>
-        <tag>Tools</tag>
+        <tag>Logcat</tag>
       </tags>
   </entry>
   <entry>
-    <title>部门协作-谷歌代码实验室CodeLabs环境搭建</title>
+    <title>「文档服务」 (三) 本地代码实验室Codelabs环境搭建与使用</title>
     <url>/2020/09/26/CodeLabs-Env-Setup/</url>
     <content><![CDATA[<html><head></head><body><h1 id="Codelabs环境搭建"><a href="#Codelabs环境搭建" class="headerlink" title="Codelabs环境搭建"></a>Codelabs环境搭建</h1><p>本文对应的<a href>Codelab</a>已同步值<a href="http://codelabs.top">Codelabs.top</a></p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在日常工作中，文档管理无疑很是重要。</p>
@@ -272,16 +272,15 @@
 </ul>
 </body></html>]]></content>
       <categories>
-        <category>CodeLabs</category>
+        <category>协作</category>
       </categories>
       <tags>
-        <tag>Tools</tag>
-        <tag>Code</tag>
-        <tag>Soft</tag>
+        <tag>文档服务</tag>
+        <tag>Codelabs</tag>
       </tags>
   </entry>
   <entry>
-    <title>部门协作-终端播放器测试源环境搭建</title>
+    <title>「模拟环境」 (二) 播放模拟-PlayOS环境搭建与使用</title>
     <url>/2020/06/29/Soft-IPTV-Player-OS/</url>
     <content><![CDATA[<html><head></head><body><h2 id="IPTV播放器OS源测试环境搭建"><a href="#IPTV播放器OS源测试环境搭建" class="headerlink" title="IPTV播放器OS源测试环境搭建"></a>IPTV播放器OS源测试环境搭建</h2><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>如下图所示，整个网络主要包括3大部分组成：</p>
 <a href="https://s1.ax1x.com/2020/06/29/NfTmq0.md.png" data-fancybox="group" data-caption="基于局域网的机顶盒组播和单播自测方法-整体框图" class="fancybox"><img alt="基于局域网的机顶盒组播和单播自测方法-整体框图" style="zoom:100%;" title="基于局域网的机顶盒组播和单播自测方法-整体框图" data-src="https://s1.ax1x.com/2020/06/29/NfTmq0.md.png" class="lazyload"></a>
@@ -649,15 +648,15 @@
 </ul>
 </body></html>]]></content>
       <categories>
-        <category>Tv</category>
+        <category>协作</category>
       </categories>
       <tags>
-        <tag>Tv</tag>
-        <tag>Test</tag>
+        <tag>模拟环境</tag>
+        <tag>Player</tag>
       </tags>
   </entry>
   <entry>
-    <title>脚本工具-Android多项目批量编译打包脚本</title>
+    <title>「工具脚本」(一)  版本打包-AutoPackage多项目打包脚本说明</title>
     <url>/2020/06/06/Script-MultiPackage/</url>
     <content><![CDATA[<html><head></head><body><h3 id="MuiltPackage-多项目编译打包"><a href="#MuiltPackage-多项目编译打包" class="headerlink" title="MuiltPackage-多项目编译打包"></a>MuiltPackage-多项目编译打包</h3><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>linux服务器多项目Android工程打包，本项目基于自定义as-build.grade打包脚本 → <a href="http://lairdli.top/2020/02/02/Android-Gradle/">Android Gradle</a></p>
 <p> 本文实例测试代码已上传<a href="https://github.com/lairdli" target="_blank" rel="noopener">github</a>→ <a href="https://github.com/lairdli/AndroidGradle" target="_blank" rel="noopener">AndroidGradle</a></p>
@@ -725,16 +724,15 @@
 
 </body></html>]]></content>
       <categories>
-        <category>Script</category>
+        <category>协作</category>
       </categories>
       <tags>
-        <tag>Gradle</tag>
-        <tag>Tools</tag>
-        <tag>Script</tag>
+        <tag>工具脚本</tag>
+        <tag>AutoPackage</tag>
       </tags>
   </entry>
   <entry>
-    <title>脚本工具-CodeClean磁盘代码清理脚本</title>
+    <title>「工具脚本」(三) 版本请求-CleanUpCode清理脚本说明</title>
     <url>/2020/05/10/Script-CodeClean/</url>
     <content><![CDATA[<html><head></head><body><h3 id="Script-CodeClean"><a href="#Script-CodeClean" class="headerlink" title="Script-CodeClean"></a>Script-CodeClean</h3><p>磁盘代码清理脚本工具</p>
 <h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ul>
@@ -758,16 +756,15 @@
 
 </body></html>]]></content>
       <categories>
-        <category>Script</category>
+        <category>协作</category>
       </categories>
       <tags>
-        <tag>Tools</tag>
-        <tag>Code</tag>
-        <tag>Script</tag>
+        <tag>工具脚本</tag>
+        <tag>CleanUpCode</tag>
       </tags>
   </entry>
   <entry>
-    <title>脚本工具-仓储迁移svn转git脚本</title>
+    <title>「工具脚本」(四) 版本迁移-Svn2Git迁移脚本说明</title>
     <url>/2020/04/25/Script-Svn2Git/</url>
     <content><![CDATA[<html><head></head><body><h2 id="Script-Svn2Git"><a href="#Script-Svn2Git" class="headerlink" title="Script-Svn2Git"></a>Script-Svn2Git</h2><p>svn转git脚本工具</p>
 <h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ul>
@@ -829,16 +826,15 @@
 </ul>
 </body></html>]]></content>
       <categories>
-        <category>Script</category>
+        <category>协作</category>
       </categories>
       <tags>
-        <tag>Tools</tag>
-        <tag>Script</tag>
-        <tag>Git</tag>
+        <tag>工具脚本</tag>
+        <tag>Svn2Git</tag>
       </tags>
   </entry>
   <entry>
-    <title>Android开发-Gradle打包流程及自定义构建梳理</title>
+    <title>「Android Gradle」Gradle打包流程及自定义构建梳理</title>
     <url>/2020/02/02/Android-Gradle/</url>
     <content><![CDATA[<html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文将简述Android-Gradle在实际项目开发过程中-打包编译过程中-所涉及到的部分知识点。<br>对大部分Android开发者而言，接触Gradle应该是从AndroidStudio开始，而AndroidStudio是google官方推荐的开发IDE,可见深入了解Gradle会对我们的Android软件开发产生更深远的意义。<br>Gradle其实是一种构建工具，能自动化的进行构建，编译，打包，签名等一系列流程。</p>
 <a id="more"></a>
@@ -1187,7 +1183,7 @@
       </tags>
   </entry>
   <entry>
-    <title>部门协作-团队组建与管理</title>
+    <title>「部门」团队组建与管理</title>
     <url>/2019/11/24/Soft-Team-Manager/</url>
     <content><![CDATA[<html><head></head><body><p>本文将总结软件团队组建与管理的一些关键要素。<br>一切将从面试-文档-沟通-分享-评审-定位等以此归纳。</p>
 <p><a href="https://s2.ax1x.com/2020/03/07/3jODu4.png" data-fancybox="group" data-caption="soft-team-manager" class="fancybox"><img alt="soft-team-manager" title="soft-team-manager" data-src="https://s2.ax1x.com/2020/03/07/3jODu4.png" class="lazyload"></a></p>
@@ -1274,15 +1270,14 @@
 </ul>
 </body></html>]]></content>
       <categories>
-        <category>Soft</category>
+        <category>协作</category>
       </categories>
       <tags>
-        <tag>Soft</tag>
-        <tag>Team</tag>
+        <tag>部门</tag>
       </tags>
   </entry>
   <entry>
-    <title>部门协作-软件开发项目流程</title>
+    <title>「项目」软件开发项目流程</title>
     <url>/2019/09/22/Soft-Project-Manager/</url>
     <content><![CDATA[<html><head></head><body><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>对于一个完整的软件开发团队，应该包含产品经理，开发，测试这三个团队</p>
 <ul>
@@ -1397,15 +1392,14 @@
 <p>如此，保持平和的心态，以不变应万变，学无止境。</p>
 </body></html>]]></content>
       <categories>
-        <category>Soft</category>
+        <category>协作</category>
       </categories>
       <tags>
-        <tag>Soft</tag>
-        <tag>Project</tag>
+        <tag>项目</tag>
       </tags>
   </entry>
   <entry>
-    <title>Android开发-常用Linux命令行工具梳理</title>
+    <title>「Android Command」Android开发-常用Linux命令行汇总</title>
     <url>/2019/08/13/Android-Command/</url>
     <content><![CDATA[<html><head></head><body><p>众所周知 Android系统是基于linux内核的，因而linux上的一些命令行基本上Android上也能适用，有时候有些有些阉割的命令也可以通过busybox这个命令工具做补充。本文总结Android开发常用的一些的命令行操作，带你走进不一样的空间体验。命令太多，建议收藏，有需要时搜索就行。</p>
 <a id="more"></a>
@@ -1542,11 +1536,12 @@
       </categories>
       <tags>
         <tag>Android</tag>
+        <tag>调试</tag>
         <tag>Command</tag>
       </tags>
   </entry>
   <entry>
-    <title>读书笔记-人性的弱点,如何交盆友</title>
+    <title>「读书笔记」人性的弱点,如何交盆友</title>
     <url>/2019/08/11/Win-Friends/</url>
     <content><![CDATA[<html><head></head><body><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p> 最近看完了卡纳基的<strong><em>《人性的弱点》</em></strong>，读之前以为是写人性的弱点，其实完全两码事，其实英文题目最合适内容—<strong><em>《How to win friends and influence people》</em></strong>（如何赢得朋友，影响人们） ,不知为何如此翻译？可能博人眼球，亦或酒香也怕巷子深！</p>
 <p>读完本书最大的感受，其实就是以他人为中心，换位思考，当然这在大部分社交中是适合的，但是在实际应用中，特别是工作中，可能就不是那么回事，你越妥协，别人反而可能越觉得你是软柿子，谁见了都想捏！</p>
@@ -1619,15 +1614,15 @@
 </blockquote>
 </body></html>]]></content>
       <categories>
-        <category>Life</category>
+        <category>读书</category>
       </categories>
       <tags>
-        <tag>Life</tag>
+        <tag>读书笔记</tag>
         <tag>Friends</tag>
       </tags>
   </entry>
   <entry>
-    <title>读书笔记-时间管理大师</title>
+    <title>「读书笔记」时间管理大师</title>
     <url>/2019/08/05/Time-Manager/</url>
     <content><![CDATA[<html><head></head><body><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>曾经有人这样描述过时间：</p>
 <blockquote>
@@ -1687,15 +1682,15 @@
 </blockquote>
 </body></html>]]></content>
       <categories>
-        <category>Life</category>
+        <category>读书</category>
       </categories>
       <tags>
-        <tag>Life</tag>
+        <tag>读书笔记</tag>
         <tag>Time</tag>
       </tags>
   </entry>
   <entry>
-    <title>Android开发-TV电视/机顶盒相关技术点梳理</title>
+    <title>「Android TV」TV电视/机顶盒相关技术点梳理</title>
     <url>/2019/07/09/Android-Tv/</url>
     <content><![CDATA[<html><head></head><body><p>本文总结Android-TV开发过程中，常见的基础知识点，主要分为TV-UI,IPTV,OTT,DVB,TVOS,DEBUG等几大模块展开。适用于常见盒子，电视，投影仪等TV开发。</p>
 <h3 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h3><p>开局一张图，直接上脑图</p>
@@ -1844,16 +1839,16 @@
 </blockquote>
 </body></html>]]></content>
       <categories>
-        <category>Tv</category>
+        <category>Android</category>
       </categories>
       <tags>
         <tag>Android</tag>
-        <tag>Tv</tag>
-        <tag>Tvos</tag>
+        <tag>TV</tag>
+        <tag>TVOS</tag>
       </tags>
   </entry>
   <entry>
-    <title>部门协作-版本管理工具Git要点梳理</title>
+    <title>「版本管理」 (七)  版本管理工具Git使用要点梳理</title>
     <url>/2019/07/09/Vcs-Git/</url>
     <content><![CDATA[<html><head></head><body><p>本文总结版本控制工具git在日常开发工作常用到的一些命令，以及一些常用的场景应用，比如分支管理，远程管理，合并冲突处理等。后续持续更新中。</p>
 <h4 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h4><p>下面的图片很清晰的说明来一些命令和各个区域的关系 </p>
@@ -1965,15 +1960,15 @@
 </blockquote>
 </body></html>]]></content>
       <categories>
-        <category>Git</category>
+        <category>协作</category>
       </categories>
       <tags>
+        <tag>版本管理</tag>
         <tag>Git</tag>
-        <tag>Vcs</tag>
       </tags>
   </entry>
   <entry>
-    <title>Android开发-Material Design技术点</title>
+    <title>「Android基础」Android Material Design</title>
     <url>/2019/06/29/Android-Material-Design/</url>
     <content><![CDATA[<html><head></head><body><h2 id="Android-Material-Design"><a href="#Android-Material-Design" class="headerlink" title="Android Material Design"></a>Android Material Design</h2><p>Material Design（质感设计）是google在Android 5.0提出的一种全新的设计理论，旨在为手机，平板，TV，电脑 等平台提供一致的设计与体验。</p>
 <h3 id="导图"><a href="#导图" class="headerlink" title="导图"></a>导图</h3><p>开局一张图，直接上脑图</p>
@@ -2113,7 +2108,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Android开发-版本进化以及差异梳理</title>
+    <title>「Android基础」版本进化以及差异梳理</title>
     <url>/2019/06/24/Android-Release/</url>
     <content><![CDATA[<html><head></head><body><h4 id="Android-Release"><a href="#Android-Release" class="headerlink" title="Android Release"></a>Android Release</h4><p>Android版本目前最新已发布了Android 9.0 Q测试版，本文旨在总结目前Android各个Release版本的新特性，以供App开发时，进行更好的版本适配，新功能开发。</p>
 <h5 id="MindMap"><a href="#MindMap" class="headerlink" title="MindMap"></a>MindMap</h5><p>开局一张图，直接上脑图<br><a href="https://s2.ax1x.com/2020/03/07/3jOStx.png" data-fancybox="group" data-caption="Android Release" class="fancybox"><img alt="Android Release" title="Android Release" data-src="https://s2.ax1x.com/2020/03/07/3jOStx.png" class="lazyload"></a></p>
@@ -2208,11 +2203,11 @@
       </categories>
       <tags>
         <tag>Android</tag>
-        <tag>Adapter</tag>
+        <tag>Release</tag>
       </tags>
   </entry>
   <entry>
-    <title>Android开发-常用工具软件梳理</title>
+    <title>「Android Tools」  Android开发-常用工具软件梳理</title>
     <url>/2019/06/18/Android-Helper/</url>
     <content><![CDATA[<html><head></head><body><h2 id="Android-Helper"><a href="#Android-Helper" class="headerlink" title="Android Helper"></a>Android Helper</h2><p><strong><em>工欲善其事 必先利其器</em></strong></p>
 <p>本文总结整理了软件开发过程中的那些实用软件与工具，主要基于Android开发，其他行业语种开发，也大部分适用，请自行参考，有了这些”神兵利器”的协助，基本上能搞定日常工作中的开发需求了。</p>
@@ -2370,7 +2365,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Android开发-C语言技术路线梳理</title>
+    <title>「C/C++图谱」 C/C++开发技术路线图谱梳理</title>
     <url>/2019/06/09/Android-C-RoadMap/</url>
     <content><![CDATA[<html><head></head><body><h1 id="Android-C-RoadMap"><a href="#Android-C-RoadMap" class="headerlink" title="Android C RoadMap"></a>Android C RoadMap</h1><p>对于Android应用开发者而言，想必在大学C语言都是必修课，现在面对C估计熟悉又陌生，但掌握基础的C语言开发对于Android开发还是会锦上添花的，不管是源码的阅读，驱动开发，jni开发，都绕不开C.趁着前段时间开始JNI开发的经历，大概梳理了下C语言开发基础的脑图点，和重要的知识点。  </p>
 <h2 id="Let’s-become-a-better-Android-C-Developer"><a href="#Let’s-become-a-better-Android-C-Developer" class="headerlink" title="Let’s become a better Android/C Developer"></a>Let’s become a better Android/C Developer</h2><p>本文适用于</p>
@@ -2438,15 +2433,16 @@
 </blockquote>
 </body></html>]]></content>
       <categories>
-        <category>C</category>
+        <category>路线图</category>
       </categories>
       <tags>
-        <tag>Android</tag>
+        <tag>路线图</tag>
         <tag>C</tag>
+        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
-    <title>Android开发-JNI/NDK知识点梳理</title>
+    <title>「JNI/NDK图谱」JNI/NDK开发技术路线图谱梳理</title>
     <url>/2019/06/01/Android-NDK-RoadMap/</url>
     <content><![CDATA[<html><head></head><body><h1 id="Android-NDK-RoadMap"><a href="#Android-NDK-RoadMap" class="headerlink" title="Android NDK RoadMap"></a>Android NDK RoadMap</h1><h2 id="Let’s-become-a-better-Android-NDK-Developer"><a href="#Let’s-become-a-better-Android-NDK-Developer" class="headerlink" title="Let’s become a better Android/NDK Developer"></a>Let’s become a better Android/NDK Developer</h2><p>本文使用于</p>
 <blockquote>
@@ -2539,15 +2535,15 @@
 </blockquote>
 </body></html>]]></content>
       <categories>
-        <category>Android</category>
+        <category>路线图</category>
       </categories>
       <tags>
-        <tag>Android</tag>
         <tag>Jni</tag>
+        <tag>NDK</tag>
       </tags>
   </entry>
   <entry>
-    <title>Android开发-技术路线图</title>
+    <title>「Android图谱」（二）Android开发技术路线图（翻译）</title>
     <url>/2019/05/19/Android-RoadMap/</url>
     <content><![CDATA[<html><head></head><body><h1 id="Android-RoadMap"><a href="#Android-RoadMap" class="headerlink" title="Android RoadMap"></a>Android RoadMap</h1><p>翻译整理国外Android开发总结的一篇博文，原文路径：</p>
 <p><a href="https://link.medium.com/o13FgtRpHW" target="_blank" rel="noopener">“A Roadmap To Become A Better Android Developer” by Amit Shekhar </a></p>
@@ -2638,15 +2634,15 @@
 </blockquote>
 </body></html>]]></content>
       <categories>
-        <category>Android</category>
+        <category>路线图</category>
       </categories>
       <tags>
         <tag>Android</tag>
-        <tag>Translation</tag>
+        <tag>翻译</tag>
       </tags>
   </entry>
   <entry>
-    <title>Android开发-常用第三方开源框架梳理</title>
+    <title>「Android基础」 Android开发常用第三方开源框架梳理</title>
     <url>/2019/02/25/Android-3rd-Libs/</url>
     <content><![CDATA[<html><head></head><body><p>总结个人Android开发过程中常用的（经典的）第三方库。</p>
 <p>方便技术选型，记忆回顾。持续 更新中……</p>
@@ -2844,7 +2840,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Android开发-技术路线图谱梳理</title>
+    <title>「Android图谱」（一）Android开发-技术路线图谱梳理</title>
     <url>/2019/01/30/Android-Journey/</url>
     <content><![CDATA[<html><head></head><body><h1 id="Android-Journey"><a href="#Android-Journey" class="headerlink" title="Android Journey"></a>Android Journey</h1><p>  新的2019年，新的开始，做一个Android相关知识整理，资源聚合。</p>
 <a id="more"></a>
@@ -3026,14 +3022,15 @@
 </blockquote>
 </body></html>]]></content>
       <categories>
-        <category>Android</category>
+        <category>路线图</category>
       </categories>
       <tags>
         <tag>Android</tag>
+        <tag>路线图</tag>
       </tags>
   </entry>
   <entry>
-    <title>Android开发-经典书籍梳理</title>
+    <title>「书籍推荐」Android开发-经典书籍梳理</title>
     <url>/2018/05/25/Android-Book-Recomendations/</url>
     <content><![CDATA[<html><head></head><body><h1 id="程序设计"><a href="#程序设计" class="headerlink" title="程序设计"></a>程序设计</h1><h2 id="java"><a href="#java" class="headerlink" title="java"></a>java</h2><h3 id="基本语法-如继承、异常、引用、泛型等"><a href="#基本语法-如继承、异常、引用、泛型等" class="headerlink" title="基本语法(如继承、异常、引用、泛型等)"></a>基本语法(如继承、异常、引用、泛型等)</h3><p><a href="https://book.douban.com/subject/25762168/" target="_blank" rel="noopener">Java核心技术 卷I</a>（适合入门）</p>
 <p> <a href="https://book.douban.com/subject/5362860" target="_blank" rel="noopener">Java解惑</a> （介绍Java代码是什么样的）</p>
@@ -3110,11 +3107,11 @@
 <h2 id="思考人生"><a href="#思考人生" class="headerlink" title="思考人生"></a>思考人生</h2><p><a href="https://book.douban.com/subject/6021440/" target="_blank" rel="noopener">黑客与画家</a> (硅谷创业之父Paul Craham 的文集，主要介绍黑客及优秀程序员的爱好和动机)</p>
 </body></html>]]></content>
       <categories>
-        <category>Android</category>
+        <category>读书</category>
       </categories>
       <tags>
         <tag>Android</tag>
-        <tag>Book</tag>
+        <tag>书籍推荐</tag>
       </tags>
   </entry>
 </search>
